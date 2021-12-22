@@ -1,0 +1,230 @@
+#login {
+  margin: 0;
+  padding: 266px 0 0;
+  height: 100vh; /* TODO: revisit why this is necessary */
+  background: url('../images/lobby.png') center/cover no-repeat;
+}
+
+#login form {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  background-color: #FFF;
+  width: 391px;
+  margin: auto;
+  padding: 32px 26px 30px 25px;
+}
+
+.rtl #login form {
+  text-align: right;
+}
+
+#login .formGroupContent div.signUpPrompt {
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 0;
+  color: #535050;
+}
+
+.rtl #login .formGroupContent div.signUpPrompt {
+  padding-right: 0;
+  padding-left: 3px;
+}
+
+#login .formGroupContent div.signUp {
+  display: inline-block;
+}
+
+#login .formGroupContent input {
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: normal;
+  outline-color: #c0c0c0;
+  height: 50px;
+  width: 340px;
+  padding: 14px;
+  vertical-align: text-bottom;
+}
+
+#login .formGroupContent input[type=checkbox] {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+  margin-left: 0;
+}
+
+.rtl #login .formGroupContent input[type=checkbox] {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+#login .formGroupContent input[type=radio] {
+  height: 20px;
+  width: 20px;
+  margin-right: 4px;
+  margin-left: 0;
+}
+
+.rtl #login .formGroupContent input[type=radio] {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+#login .rememberMe {
+  color: #535050;
+  outline-color: #c0c0c0;
+  padding-bottom: 7px;
+  font-size: 14px;
+  float: left;
+}
+
+#login .loginAssistance {
+  font-size: 14px;
+  position: relative;
+  float: right;
+}
+
+.rtl #login .rememberMe {
+  float: right;
+}
+
+.rtl #login .loginAssistance {
+  float: left;
+}
+
+.redactedEmail {
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+#login .loginSignup {
+  font-size: 14px;
+  text-align: center;
+}
+
+#login button {
+  margin-top: 4px;
+  margin-bottom: 19px;
+  padding: 7px;
+  width: 340px;
+  height: 50px;
+  background-color: #efa825;
+  border: 0 none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+#login a {
+  color: #00BCD4;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#login .formError {
+  color: #FF6767;
+  font-size: 14px;
+  text-align: left;
+}
+
+.rtl #login .formError {
+  text-align: right;
+}
+
+#login ::-webkit-input-placeholder {
+  color: #b3b3b3;
+}
+
+.blueFormHeader {
+  margin: auto;
+  width: 391px;
+  height: 75px;
+  background-color: #00bcd4;
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  padding-left: 32px;
+  padding-top: 22px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+}
+
+.loginAssistanceText {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.loginAssistanceSubtext {
+  padding-top: 15px;
+  padding-bottom: 30px;
+  font-size: 14px;
+}
+
+#login.loginAssistanceContainer {
+  padding-top: 200px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+.loginDateMonth {
+  font-size: 14px;
+  font-weight: normal;
+  margin-right: 20px;
+  width: 150px;
+}
+
+.loginAssistanceContainer .form-group .loginDateInputGroup {
+    display: inline-flex;
+    align-items: center;
+}
+
+.loginAssistanceContainer .form-group .loginDateInputGroup #dobDay {
+  height: 40px;
+  width: 70px;
+  margin-right: 20px;
+}
+
+.loginAssistanceContainer .form-group .loginDateInputGroup #dobYear {
+  height: 40px;
+  width: 80px;
+  margin-right: 20px;
+}
+
+.loginAssistanceContainer #newPassword {
+  margin-top: 20px;
+}
+
+.loginAssistanceContainer .dobLabel {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.loginAssistanceContainer .continueButton:disabled {
+  background-color: #fae7be;
+}
+
+#login .loginFooter {
+  margin-top: 10px;
+  color: #d2d2d2;
+}
+
+#login .loginFooter a {
+  font-size: 12px;
+}

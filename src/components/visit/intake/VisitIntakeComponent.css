@@ -1,0 +1,111 @@
+.visitIntakeForm {
+  padding-top: 45px;
+  padding-bottom: 95px;
+  width: 450px;
+  color: #535050;
+  margin: 0 auto;
+}
+
+.visitIntakeSection {
+  margin: 0 0 60px;
+  padding: 0;
+}
+
+.visitIntakeSection > div:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+}
+
+.visitIntakeForm input[type='text'],
+.visitIntakeForm select,
+.tytoDeviceIntegration input[type='text'],
+.tytoDeviceIntegration input[type='password'] {
+  height: 50px;
+  width: 100%;
+  border-radius: 0;
+  border-color: #d6d6d6;
+  font-size: 18px;
+  padding: 0 15px;
+}
+
+.visitIntakeForm input[type='radio'],
+.visitIntakeForm input[type='checkbox'] {
+  position: static;
+  cursor: pointer;
+  margin: 0 15px 0 0;
+  width: 24px;
+  height: 24px;
+}
+
+.rtl .visitIntakeForm input[type='radio'],
+.rtl .visitIntakeForm input[type='checkbox'] {
+  margin: 0 0 0 15px;
+}
+
+.visitIntakeForm .form-check-label {
+  display: flex;
+  align-items: center;
+}
+
+.visitIntakeTopicsAndTriage,
+.visitIntakeModalitySection,
+.shareHealthSummary,
+.visitIntakeDisclaimers {
+  font-size: 18px;
+}
+
+.visitIntakeTopicsAndTriage > :nth-child(3) {
+  margin-top: 47px;
+}
+
+.visitIntakeTopicsAndTriage .form-check {
+  margin-bottom: 25px;
+}
+
+.visitIntakeTopicsAndTriage .form-control-label {
+  font-size: 16px;
+}
+
+.visitIntakeModalitySection label {
+  display: flex;
+  font-size: 18px;
+  margin: 15px 0;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.visitIntakeModalityPhoneOnly {
+  font-size: 14px;
+  color: #8b8b8b;
+  margin-top: 13px;
+}
+
+.visitIntakeButtons,
+.tytoActionButtons {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.visitIntakeButtons :nth-child(2),
+.tytoActionButtons :nth-child(2) {
+  margin-left: 42px;
+}
+
+.visitIntakeButtons button,
+.tytoActionButtons button {
+  font-family: 'Open Sans';
+  border-radius: 5px;
+  background-color: #efa825;
+  font-size: 24px;
+  font-weight: 800;
+  color: #fff;
+  border: 0;
+  width: 182px;
+  height: 52px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}

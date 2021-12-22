@@ -1,0 +1,27 @@
+.messageAction {
+    text-align: center;
+    cursor: pointer;
+}
+
+.messageAction.disabled {
+    color: #bebebe;
+}
+
+.messageAction.disabled:hover {
+    opacity: unset;
+    cursor: not-allowed;
+}
+
+.messageAction:hover {
+    opacity: .85;
+}
+
+.messageAction img {
+    height: 36px;
+}
+
+.messageAction div {
+    font-weight: bold;
+    font-size: 11px;
+    line-height: .9;
+}

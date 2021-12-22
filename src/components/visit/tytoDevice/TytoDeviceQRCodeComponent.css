@@ -1,0 +1,25 @@
+/*!
+ * American Well Consumer Web SDK Sample App
+ *
+ * Copyright © 2020 American Well.
+ * All rights reserved.
+ *
+ * It is illegal to use, reproduce or distribute
+ * any part of this Intellectual Property without
+ * prior written authorization from American Well.
+ */
+ 
+ .tytoDeviceQRComponent .QRCodeImg {
+  line-height: 0;
+}
+
+.tytoDeviceQRComponent .QRCodeImg canvas {
+  width: 139px !important;
+  height: 139px !important;
+  margin: 0 auto;
+}
+
+.tytoDeviceQRComponent .link-like {
+  font-size: 18px;
+  margin-top: 28px;
+}

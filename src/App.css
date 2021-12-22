@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+html, body{
+  height: 100%;
+
+  /* widget theming */
+  --amwell-visit-console-chat-button-color: #efa825;
+  --amwell-visit-console-video-button-color: #efa825;
+  --amwell-visit-console-button-color: #efa825;
+  --amwell-visit-console-button-color-hover: #ce9022;
+  --amwell-visit-console-chat-button-color-hover: #ce9022;
+  --amwell-visit-console-video-button-color-hover: #ce9022;
+  --amwell-visit-console-icon-color: #efa825;
+  --amwell-visit-console-link-color: #00bcd4;
+  --amwell-visit-console-link-color-hover: #014c8c;
+  --amwell-visit-console-chat-my-messages: #00bcd4;
+  --amwell-visit-console-chat-their-messages: #f0f0f0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* widget styling - should take up the entire screen without exception */
+amwell-visit-console {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(245,245,245);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+b, strong {
+  font-weight: 600;
+}
+
+#root,
+#root > div {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.ltr,.rtl {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.awsdk-body {
+  flex-grow: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+._loading-overlay {
+  padding-top: 0;
+}
+
+* {-webkit-font-smoothing: antialiased;}
+
+.modal-body {
+  overflow-wrap: break-word;
+  word-break: break-word;
+  word-wrap: break-word;
+  background-color: #ffffff !important;
+}
+
+.modal-header h5.modal-title {
+  max-width: 85%;
+}
+
+
+.modal-body a {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.bolderText {
+  font-weight: bold;
+  font-family: 'OpenSans-Semibold', sans-serif;
+}
+
+.smallerText {
+  font-size: 14px;
+}
+
+.errorModal .genericModalMessage {
+  font-size: 18px;
+  font-weight: 600;
+  max-width: 475px;
+}
+
+button.link-like {
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  letter-spacing: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  font-weight: inherit;
+  color: #00bcd4;
+  cursor: pointer;
+  width: inherit;
+  height: inherit;
+}
+
+button.link-like:hover {
+  color: #014c8c;
+  background: none;
+  border: none;
+  outline: none;
 }

@@ -1,0 +1,51 @@
+.cartModeTopicsComponent {
+    color: #535050;
+}
+
+.cartModeTopicsHeader {
+    margin-top: 65px;
+    margin-bottom: 45px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.cartModeTopicsHeader span {
+    display: block;
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    margin-bottom: 30px;
+}
+
+.cartModeVisitTopicsInput {
+    margin: 0 auto;
+    width: 450px;
+}
+
+.cartModeVisitTopicsInput span {
+    display: block;
+    letter-spacing: 1px;
+    size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cartModeVisitTopicsInput textarea {
+    width: 100%;
+    height: 175px;
+    resize: none;
+    border: solid 1px #d6d6d6;
+}
+
+.cartModeVisitTopicsButtons {
+    padding-top: 75px;
+    padding-bottom: 95px;
+    margin: 0 auto;
+    width: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cartModeVisitTopicsButtons button {
+    width: 182px;
+}

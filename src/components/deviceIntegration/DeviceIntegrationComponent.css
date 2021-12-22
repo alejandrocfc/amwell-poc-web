@@ -1,0 +1,50 @@
+.visitIntakeDeviceIntegrationBtn {
+    background-color: #efa825;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF;
+    cursor: pointer;
+    border: 0px;
+    padding: 4px 40px 4px 40px;
+  }
+
+  .qrCodeWrapper{
+    margin-top: 20px;
+  }
+  
+  .qrCodeWrapper canvas{
+    /* default to 276px */
+    width: 200px !important;
+    /* default to 276px */
+    height: 200px !important;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .qrcodeStatusContainer {
+    display: flex;
+    justify-content: space-around;    
+  }
+
+  .paintGreen{
+    color: green;
+  }
+
+  .paintRed{
+    color: red;  
+  }
+
+  .paintYellow{
+    color: goldenrod;    
+  }
+
+  .devicePairingStatusWrapper div span:nth-child(2) {
+    font-weight: 600;
+  }
+
+  .devicePairingStatusWrapper span:first-child{
+    padding-bottom: 50px;
+  }
+

@@ -1,0 +1,35 @@
+.pastProviderHeader {
+    background: url('../images/banners/providers-hands-together.png') no-repeat;
+    background-size: cover;
+    height: 430px;
+    padding-top: 194px;
+    padding-left: 520px;
+}
+
+.pastProviderBody {
+    padding: 30px;
+}
+
+.pastProviderTitle {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    margin-left: 50px;
+}
+
+.rtl .pastProviderTitle {
+    margin-right: 50px;
+}
+
+.pastProviderGrid {
+    background-color: rgb(255,255,255);
+    padding: 25px 0px 40px 0px;
+    width: 965px;
+    margin: 0 auto;
+}
+
+.noVisitsWithProvider {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 20px;
+}

@@ -1,0 +1,111 @@
+.visitReportDetailComponent {
+  padding-bottom: 60px;
+}
+
+.visitReportDetailComponent .header {
+  height: 90px;
+  background-color: #00bcd4;
+  font-size: 20px;
+  font-family: 'OpenSans-Extrabold', sans-serif;
+  font-weight: bolder;
+  color: #ffffff;
+  padding: 31px 40px;
+}
+
+div.visitReportDetailComponent .content {
+  padding: 0 40px;
+  color: #535050;
+}
+
+div.visitReportDetailComponent .content.noContentPadding {
+  padding: 0;
+}
+
+.reconnect-detail-icon {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+div.reconnect-detail-icon > span {
+  margin: 0 5px;
+}
+
+div.reconnect-detail-icon span.reconnect-detail-text {
+  color: #00bcd4;
+}
+
+.visitReportDetailComponent .downloadPdfIcon {
+  background-image: url('./images/icon-pdf.png');
+  background-size: cover;
+  height: 19px;
+  width: 16px;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.visitReportDetailComponent .downloadPdf {
+  padding: 10px 40px;
+  height: 46px;
+  background-color: #ecfafc;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.visitReportDetailComponent .downloadIconAndText {
+  display: flex;
+  align-items: center;
+}
+
+.hoverFadeLink {
+  color: #00bcd4;
+  cursor: pointer;
+}
+
+.hoverFadeLink:hover {
+  opacity: .5;
+}
+
+.visitReportDetailComponent .titleText {
+  font-size: 18px;
+  color: #313336;
+  margin-bottom: 10px;
+}
+
+.visitReportDetailComponent .titleText .visitTime {
+  font-size: 14px;
+  letter-spacing: .03em;
+}
+
+.visitReportDetailComponent .visitReportCost {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #313336;
+}
+
+.visitReportDetailComponent .moneyAmount {
+  color: #efa825;
+}
+
+.visitReportDetailComponent .smallerText .moneyAmount {
+  font-size: 16px;
+}
+
+.visitReportDetailComponent hr {
+  color: #d6d6d6;
+  padding: 0;
+  margin: 5px 0;
+}
+
+.visitReportDetailComponent .visitReportTableOfContents ul {
+  list-style: none;
+  padding: 0;
+}
+
+.visitReportDetailComponent .visitReportTableOfContents .links li,
+.visitReportDetailComponent .visitReportTableOfContents .links div {
+  max-width: max-content;
+  line-height: 28px;
+}

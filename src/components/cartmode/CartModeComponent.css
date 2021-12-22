@@ -1,0 +1,38 @@
+.cartModeComponent {
+    background-color: #ffffff;
+    width: 965px;
+    margin: 20px auto;
+}
+
+.cartModeHeader {
+    text-align: center;
+    background-color: #e7e7e7;
+    height: 113px;
+}
+
+.cartModeHeader img {
+    height: 171px;
+    margin-top: 20px;
+}
+
+.cartModeComponent button {
+    background-color: #efa825;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FFF;
+    border: 0;
+    height: 52px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.cartModeComponent button:hover {
+    background-color: #F5CA79;
+    color: white;
+}
+
+.cartModeComponent button:focus {
+    outline: none;
+}
+

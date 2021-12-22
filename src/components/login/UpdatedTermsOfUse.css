@@ -1,0 +1,103 @@
+.updatedTermsOfUse {
+  margin: 0 auto;
+  padding-top: 75px;
+  width: 965px;
+  background-color: #fff;
+  color: #535050;
+  font-size: 18px;
+  font-weight: regular;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.updatedTermsOfUseHeaderTitle {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+}
+
+.updatedTermsOfUseForm {
+  width: 450px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.updatedTermsOfUseDesc {
+  margin-bottom: 20px;
+}
+
+.disclaimerTextBox {
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: #FFFFFF;
+  margin-bottom: 20px;
+  height: 300px;
+  border: 1px solid #B9B9B9;
+  width: 450px;
+  padding: 10px;
+}
+
+.TOU {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.TOU div {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 24px;
+}
+
+.updatedTermsOfUse input{
+  margin: 10px 0;
+  color: #b3b3b3;
+  height: 50px;
+  font-size: 18px;
+  outline-width: 1px;
+  outline-color: #d6d6d6
+}
+
+input#updatedTOU {
+  height: 24px;
+  width: 24px;
+}
+
+.updatedTermsOfUseSubmit {
+  text-align: center;
+  margin-top: 76px;
+  margin-bottom: 20px;
+}
+
+#updatedTermsOfUseSubmit button {
+  background-color: #efa825;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFF;
+  border: 0;
+  width: 363px;
+  height: 52px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+#updatedTermsOfUseCancel {
+  text-align: center;
+}
+
+.error {
+  font-size: 14px;
+  margin: 10px 15px 0;
+  color: red;
+  clear: both;
+}
+
+.errorInput {
+  border: 1px solid red;
+}

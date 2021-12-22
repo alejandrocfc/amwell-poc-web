@@ -1,0 +1,127 @@
+.confirmAppointmentComponent {
+    color: #535050;
+    background-color: rgb(255,255,255);
+    width: 965px;
+    margin: 20px auto 30px;
+}
+
+.confirmAppointmentComponent .content {
+    padding: 0 207px;
+}
+
+.confirmAppointmentComponent .banner {
+    background-color: #e7e7e7;
+    height: 113px;
+    text-align: center;
+}
+
+.confirmAppointmentComponent img {
+    margin-top: 20px;
+}
+
+.confirmAppointmentComponent .title {
+    font-family: 'OpenSans-bold', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 62px;
+}
+
+.confirmAppointmentComponent .logoAndDetails {
+    display: flex;
+    align-items: center;
+    margin-bottom: 47px;
+}
+
+.confirmAppointmentComponent .logo img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border: 12px solid #00bcd4;
+    border-radius: 250px;
+}
+
+.confirmAppointmentComponent .appointmentDetails {
+    white-space: nowrap;
+    margin-left: 40px;
+}
+
+.rtl .confirmAppointmentComponent .appointmentDetails {
+    margin-left: 0;
+    margin-right: 40px;
+}
+
+.confirmAppointmentComponent .appointmentDetails .details {
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.confirmAppointmentComponent .section {
+    margin: 23px 0;
+}
+
+.confirmAppointmentComponent .section .label {
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.confirmAppointmentComponent .section .labelDescription {
+    font-size: 16px;
+}
+
+.confirmAppointmentComponent .section .form-control {
+    width: 389px;
+    height: 50px !important;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 0;
+}
+
+.confirmAppointmentComponent .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 67px;
+}
+
+.confirmAppointmentComponent .buttons button {
+    background-color: #efa825;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FFF;
+    border: 0;
+    width: 182px;
+    height: 52px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 23px;
+}
+
+.confirmAppointmentComponent .buttons button:hover {
+    background-color: #F5CA79;
+    color: white;
+}
+
+.confirmAppointmentComponent .buttons button:focus {
+    outline: none;
+}
+
+.confirmAppointmentComponent .byPhone {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.confirmAppointmentComponent .paymentSection {
+    margin-bottom: 50px;
+}
+
+.confirmAppointmentComponent .paymentSection .error {
+    margin: 0;
+}
+

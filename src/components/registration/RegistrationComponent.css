@@ -1,0 +1,256 @@
+.registration {
+  margin: 20px auto 0;
+  width: 965px;
+  background-color: #fff;
+  color: #535050;
+  font-size: 18px;
+  font-weight: regular;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+
+.registration a {
+  color: #00bcd4;
+}
+
+div#primaryResidenceStateWrapper,
+div#primaryResidenceZipCodeWrapper {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#legalResidenceState,
+#legalResidenceCountry,
+#primaryResidenceState,
+#primaryResidenceCountry {
+  width: 450px;
+  height: 50px;
+  background-color: #ffffff;
+}
+
+select#primaryResidenceState.form-control {
+  width: 278px !important;
+  margin-right: 20px;
+}
+
+.rtl select#primaryResidenceState.form-control,
+.rtl select#genderIdentity,
+.rtl select#gender {
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+div.form-group input#registrationZipCode {
+  width: 152px !important;
+}
+
+.registration select,
+.registration input {
+  margin: 10px 0;
+  height: 50px;
+  font-size: 18px;
+  outline: #d6d6d6 1px;
+}
+
+input#registrationTOU, input#registrationGenderFemale, input#registrationGenderMale, input#registrationWelcomeEmail {
+  height: 24px;
+  width: 24px;
+}
+
+.registration select, .registration select option {
+  font-size: 18px;
+  color: #000;
+}
+
+.registration select:invalid,
+.registration select option[value=""] {
+  color: #b3b3b3;
+}
+
+[hidden] {
+  display: none;
+}
+
+.registration input::-webkit-input-placeholder {
+  color: #b3b3b3;
+}
+
+.registrationHeader {
+  background: linear-gradient(to bottom,  rgb(231,231,231) 0%,rgb(231,231,231) 50%,#fff 50%,#fff);
+  height: 226px;
+  padding-top: 20px;
+}
+
+.registrationHeaderIcon {
+  background-image: url('./images/iconRegistration.png');
+  height: 171px;
+  width: 171px;
+  margin: auto;
+}
+
+.registrationHeaderTitle {
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: -20px;
+  letter-spacing: 1.3px;
+}
+
+.registrationForm {
+  width: 450px;
+  margin: 0 auto;
+  padding-bottom: 60px;
+}
+
+.registrationSubmit {
+  text-align: center;
+  margin-top: 76px;
+  margin-bottom: 20px;
+}
+
+#registrationSubmit button {
+  background-color: #efa825;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFF;
+  border: 0;
+  width: 363px;
+  height: 52px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+}
+
+.registrationNameGroup input {
+  margin-bottom: 1em;
+}
+
+.registrationFirstNameWithMI {
+  width: 80%;
+  float: left;
+}
+
+.registrationMiddleInitial {
+  width: 15%;
+  float: right;
+}
+
+.registrationGender, .registrationGenderMale, .registrationGenderFemale, .TOU, .sendWelcomeEmail {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.registrationDOBTitle,
+div#legalResidenceTitle,
+div#primaryResidenceTitle,
+.selectTitle {
+  margin-top: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.registrationDOBInputGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.registrationDOBMonth,
+select#genderIdentity,
+select#gender {
+  width: 240px;
+}
+
+.registrationDOBDay {
+  width: 72px;
+}
+
+.registrationDOBYear {
+  width: 90px;
+}
+
+.genderText {
+  margin: 10px 37px;
+  vertical-align: bottom;
+  line-height: 24px;
+}
+
+.TOUInputText, .sendWelcomeEmailText {
+  margin: 10px 37px;
+  vertical-align: bottom;
+}
+
+.TOU div, .sendWelcomeEmail div {
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 24px;
+}
+
+#registrationCancel {
+  text-align: center;
+}
+
+.error {
+  font-size: 14px;
+  margin: 10px 15px 0;
+  color: red;
+  clear: both;
+}
+
+.errorInput {
+  border: 1px solid red;
+}
+
+div#primaryResidenceZipCodeWrapper div.error {
+  margin: 10px 0 0 15px;
+}
+
+.rtl div#primaryResidenceZipCodeWrapper div.error {
+  margin: 10px 15px 0 0;
+}
+
+.modal-dialog {
+  margin-top: 10%;
+  max-height: 600px;
+  width: 475px;
+  overflow-y: auto;
+  text-align: left;
+}
+
+.rtl .modal-dialog {
+  text-align: right;
+}
+
+.modal-header {
+  background-color: #00bcd4;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.modal-header .modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  max-width: 380px;
+}
+
+.close > span {
+  visibility: hidden;
+}
+
+.modal-header .close {
+  background-image: url('../provider/images/iconClose.png');
+  background-size: cover;
+  height: 43px;
+  width: 43px;
+  float: right;
+  cursor: pointer;
+}
+
+.rtl .modal-header .close {
+  float: left;
+}
+

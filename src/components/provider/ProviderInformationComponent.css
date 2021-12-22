@@ -1,0 +1,13 @@
+.providerInformationComponent .section {
+    padding: 0;
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+
+.providerInformationComponent .title {
+    font-weight: 600;
+}
+
+.providerInformationComponent .row {
+    width: 100%;
+}

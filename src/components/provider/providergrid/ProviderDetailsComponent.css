@@ -1,0 +1,217 @@
+/*
+* Arrow thing
+*/
+
+.providerDetails {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    padding: 0px;
+}
+
+.providerDetails:before {
+    content: "";
+    position: absolute;
+    top: -16px;
+    width: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+}
+
+.providerDetails.offline:before {
+    border-bottom: 20px solid #c0c0c0;
+}
+
+.providerDetails.available:before {
+    border-bottom: 20px solid #51c35a;
+}
+
+.providerDetails.waiting:before {
+    border-bottom: 20px solid #efcc48;
+}
+
+.providerDetails.col1:before {
+    left: 157px;
+}
+
+.providerDetails.col2:before {
+    left: 469px;
+}
+
+.providerDetails.col3:before {
+    left: 774px;
+}
+
+.rtl .providerDetails.col3:before {
+    left: 157px;
+}
+
+.rtl .providerDetails.col2:before {
+    left: 469px;
+}
+
+.rtl .providerDetails.col1:before {
+    left: 774px;
+}
+
+.providerDetails .row {
+    margin: 0;
+}
+
+.providerDetails  .startVisit {
+    height: 185px;
+    max-height: 185px;
+    text-align: center;
+}
+
+.providerDetails .startVisit.offline {
+    background: linear-gradient(#c0c0c0, #a2a0a0);
+}
+
+.providerDetails .startVisit.available {
+    background: linear-gradient(#51c35a, #1b8724);
+}
+
+.providerDetails .startVisit.waiting {
+    background: linear-gradient(#efcc48, #ef9c23);
+}
+
+.providerDetails .closeProvider {
+    background-image: url('../images/iconClose.png');
+    background-size: cover;
+    height: 44px;
+    width: 44px;
+    float: right;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.rtl .providerDetails .closeProvider {
+    float: left;
+}
+
+.providerDetails .startVisitButton {
+    width: 320px;
+    height: 52px;
+    border-radius: 5px;
+    border: 0;
+    letter-spacing: 0.5px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.providerDetails .startVisitText {
+    padding-top: 35px;
+    padding-bottom: 26px;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.rtl .providerDetails .startVisitText {
+    text-align: right;
+}
+
+.providerDetails .startVisitTextAvailable {
+    font-weight: 600;
+}
+
+#providerStartButton {
+    background-color: #efa825;
+    color: #FFF;
+}
+
+#providerWaitButton {
+    background-color: #fff;
+    color: #e19019;
+}
+
+.providerDetails .providerAvailability.offline {
+    color: #757F9A;
+}
+
+.providerDetails .providerAvailability.available {
+    color: #1b8724;
+}
+
+.providerDetails .providerAvailability.waiting {
+    color: #ef9c23;
+}
+
+.providerDetails .requestCallButton {
+    background-color: #efa825;
+    font-size: 16px;
+    font-weight: 800;
+    color: #FFF;
+    border: 0;
+    width: 198px;
+    height: 50px;
+    line-height: 22px;
+    letter-spacing: 0.6px;
+    cursor: pointer;
+    margin-top: 35px;
+    position: absolute;
+    left: 65px;
+    top: 455px;
+    z-index: 1;
+}
+
+.rtl .providerDetails .requestCallButton {
+    left: 0;
+    right: 65px;
+}
+
+.providerDetails .requestCallButton:hover {
+    background-color: #F5CA79;
+    color: white;
+}
+
+.providerDetails .providerNameAndPhotoComponent {
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.rtl .providerDetails .providerNameAndPhotoComponent {
+    float: right;
+    margin-left: 0;
+    margin-right: 30px;
+}
+
+.providerDetails .providerNameAndPhotoComponent .providerSpecialty {
+    font-size: 20px;
+}
+
+.providerDetails .greetingAndInfo {
+    width: 585px;
+    padding: 32px;
+    margin-left: 320px;
+}
+
+.rtl .providerDetails .greetingAndInfo {
+    margin-left: 0;
+    margin-right: 320px;
+}
+
+
+.providerDetails .greetingAndInfo .providerGreeting {
+    min-height: 88px;
+    padding-bottom: 1em;
+}
+
+.providerDetails .greetingAndInfo .providerInformationComponent {
+    padding: 0;
+}
+
+.providerDetails .providerStatusAndButton {
+    width: 800px;
+    text-align: center;
+}
+
+.providerDetails .cartModeButton {
+    margin: 17px;
+    float: right;
+}
+
+.rtl .providerDetails .cartModeButton {
+    float: left;
+}

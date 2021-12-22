@@ -1,0 +1,181 @@
+.myRecordsComponentContent {
+  padding: 32px 40px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.recordsHeaderBar {
+  height: 50px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.recordsHeaderSelect {
+  width: 267px;
+  height: 100% !important;
+  border-radius: 0 !important;
+  border: solid 1px #d6d6d6 !important;
+  font-size: 18px;
+  color: #535050;
+}
+
+.recordsHeaderSpacer {
+  width: 22px;
+}
+
+.recordsHeaderBar .recordsHeaderSpacer:first-child {
+  display: none;
+}
+
+.recordsHeaderButtonsContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.recordsHeaderButtonsRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.recordsHeaderButtonsRight div,
+.recordsHeaderButtonsLeft div {
+  padding: 0 18px;
+}
+
+.recordsHeaderButtonsRight > div:first-child,
+.recordsHeaderButtonsLeft > div:first-child {
+  padding: 0 18px 0 0 !important;
+}
+
+
+.recordsHeaderButtonsRight > div:last-child,
+.recordsHeaderButtonsLeft >  div:last-child {
+  padding: 0 0 0 18px;
+}
+
+.rtl .recordsHeaderButtonsRight > div:last-child,
+.rtl .recordsHeaderButtonsLeft >  div:last-child {
+  padding: 0 18px 0 0;
+}
+
+.rtl .recordsHeaderButtonsRight > div:first-child,
+.rtl .recordsHeaderButtonsLeft > div:first-child {
+  padding: 0 0 0 18px !important;
+}
+
+.recordsBody {
+  display: flex;
+  height: 520px;
+  border-top: solid 1px #d6d6d6;
+
+}
+
+.recordsSideBarScrollContainer {
+  width: 267px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  border-right: solid 1px #d6d6d6;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.rtl .recordsSideBarScrollContainer {
+  border-left: solid 1px #d6d6d6;
+  border-right: none;
+}
+
+.recordsContent {
+  border: solid 1px #d6d6d6;
+  margin: 10px 22px 30px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  padding: 23px 20px;
+  width: 570px;
+}
+
+.recordsContentScrollContainer {
+  overflow-y: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Side Bar*/
+
+.recordsSideBarItem {
+  min-height: 90px;
+  border-bottom: solid 1px #d6d6d6;
+  padding: 15px 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.recordsSideBarTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #535050;
+  margin-bottom: 5px;
+}
+
+.recordsSideBarText {
+  color: #535050;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.recordsSideBarFooter {
+  font-size: 12px;
+  color: #8b8b8b;
+}
+
+.recordsSideBarItem.selected {
+  background-color: #fdf7e9;
+}
+
+.recordsSideBarBumper {
+  height: 60px;
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recordsSideBarBumper .link-like {
+  font-size: 14px;
+}
+
+.recordsSideBarLoading {
+  height: 24px;
+  width: 24px;
+  animation: rotating-function 1.0s linear infinite;
+}
+
+/*Header buttons*/
+
+.recordsHeaderBarButton {
+  display: flex;
+  flex-direction: column;
+  color: #535050;
+  font-size: 11px;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.recordsHeaderBarButton:hover {
+  opacity: .85;
+}
+
+/* Content Section*/
+.noContentText {
+  font-size: 14px;
+  color: #535050;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 67px;
+}

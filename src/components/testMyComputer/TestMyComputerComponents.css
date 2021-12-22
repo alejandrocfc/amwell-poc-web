@@ -1,0 +1,279 @@
+.testMyComputerBanner {
+  background: url('../images/banners/hand-on-laptop.png') no-repeat;
+  background-size: cover;
+  height: 326px;
+}
+
+.testMyComputerHeader {
+  font-size: 20px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 1.3px;
+  text-align: left;
+  color: #535050;
+}
+
+.testMyComputerSection {
+  font-size: 16px;
+  margin: 23px auto;
+  width: 965px;
+  background-color: #ffffff;
+  padding: 32px 40px;
+  text-align: left;
+}
+
+.testMyComputerLaunchSection {
+  margin-top: 55px;
+  margin-bottom: 104px;
+  text-align: center;
+}
+
+.testMyComputerLaunchText {
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.38;
+  letter-spacing: normal;
+  text-align: center;
+  color: #535050;
+  margin-bottom: 10px;
+}
+
+.testMyComputerLaunchSubtext {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.63;
+  text-align: center;
+}
+
+.setupTestMyComputerBodyIntro {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #535050;
+  margin-top: 20px;
+  margin-bottom: 58px;
+}
+
+.setupTestMyComputerStepText {
+  font-size: 14px;
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #535050;
+  margin-bottom: 28px;
+}
+
+.setupTestMyComputerSubtext {
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #535050;
+}
+
+.setUpTestMyComputerLaunchSubtext {
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #535050;
+}
+
+.setUpTestMyComputerInstallSubtextSmall {
+  font-size: 12px;
+  color: #535050;
+}
+
+.setupTestMyComputerStepSection {
+  text-align: left;
+  margin-bottom: 75px;
+}
+
+.setUpTestMyComputerLaunchSubtext {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+#testMyComputer {
+  margin-top: -1px;
+}
+
+#testMyComputer .downloadButton {
+  background-color: #efa825;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFF;
+  border: 0;
+  height: 52px;
+  width: 250px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+}
+
+#testMyComputer .launchButton,
+#testMyComputer .testDone {
+  background-color: #efa825;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFF;
+  border: 0;
+  height: 52px;
+  width: 250px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 26px;
+}
+
+.testDone {
+  width: 200px;
+  height: 52px;
+}
+
+.setupTestMyComputerInstallImageWin {
+  background-image: url('../visit/images/setupVideoClient_ChromeWin_Install.jpg');
+  background-position: left;
+  height: 114px;
+  width: 211px;
+  margin: 20px;
+}
+
+.setupTestMyComputerInstallImageMac {
+  background-image: url('../visit/images/setupVideoClient_ChromeMac_Install.jpg');
+  background-position: left;
+  height: 114px;
+  width: 211px;
+  margin: 20px;
+}
+
+
+.setupTestMyComputerLaunchImage {
+  background-image: url('../visit/images/setupVideoClient_Chrome_Launch.png');
+  background-position: left;
+  height: 114px;
+  width: 211px;
+  margin: 20px;
+}
+.statusIcon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.testMyComputerAllSetIcon {
+  background-image: url('./images/circle-checkmark.png');
+  background-position: center;
+  width: 159px;
+  height: 159px;
+  border-radius: 50%;
+}
+.testMyComputerNotReadyIcon {
+  background-image: url('./images/hazard-not-ready.png');
+  background-position: center;
+  width: 161px;
+  height: 143px;
+}
+.testMyComputerAllSet,
+.testMyComputerNotReady {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.38;
+  color: #535050;
+  margin-bottom: 20px;
+}
+.testMyComputerAllSetText,
+.testMyComputerNotReadyText,
+.testMyComputerGetReadyText {
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  color: #535050;
+}
+.testMyComputerDetails {
+  margin-top: 50px;
+}
+.testMyComputerDetailsHeader {
+  margin-bottom: 30px;
+}
+.testMyComputerDetailsBox {
+  height: 342px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.13);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 45px 100px;
+}
+.testMyComputerDetailsHeader {
+  font-size: 18px;
+}
+.testMyComputerDetailsHeader span {
+  margin: 0 7px;
+}
+.testMyComputerDetailsHeader span.testMyComputerPlatformType {
+  font-weight: 600;
+}
+.testMyComputerDetailsHeader span.testMyComputerRevealDetails {
+  cursor: pointer;
+  color: #00bcd4;
+}
+.testMyComputerDeviceStatus {
+  width: 150px;
+}
+.testMyComputerDeviceStatusIcon {
+  width: 150px;
+  height: 30px;
+  background: url('./images/check-teal-small.png') center center no-repeat;
+}
+.testMyComputerDeviceText {
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #313336;
+}
+.testMyComputerDeviceStatusIcon.failed {
+  background: url('./images/exclamation-orange.png') center center no-repeat;
+}
+.testMyComputerInfoItem {
+  text-align: left;
+}
+.testMyComputerInfoItem span.testMyComputerDeviceDesc {
+  font-weight: 600;
+}
+.rtl .testMyComputerHeader,
+.rtl .setupTestMyComputerBodyIntro,
+.rtl .setupTestMyComputerStepText,
+.rtl .setUpTestMyComputerSubtext,
+.rtl .setUpTestMyComputerLaunchSubtext,
+.rtl .setupTestMyComputerStepSection,
+.rtl .testMyComputerSection,
+.rtl .testMyComputerInfoItem {
+    text-align: right;
+}
+
+.testMyComputerWizardHidden {
+  display: none;
+}

@@ -1,0 +1,980 @@
+::-webkit-input-placeholder {
+    color: #b3b3b3 !important;
+}
+
+.myProfileContent .errorInput {
+    border-color: red;
+}
+
+select:required:invalid, select:disabled, input:disabled {
+    color: #b3b3b3;
+}
+
+.myProfileTitle {
+    width: 134px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #535050;
+    padding-bottom: 50px;
+}
+
+.rtl .myProfileTitle {
+    text-align: right;
+}
+
+.myProfileContainer {
+    display: flex;
+}
+
+.myProfileMenuContainer {
+    width: 185px;
+}
+
+.myProfileMenu {
+    border: solid 1px #efa825;
+    width: 185px;
+}
+
+.myProfileMenuItem {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8b8b8b;
+    padding-left: 35px;
+    width: 185px;
+    margin-left: -1px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rtl .myProfileMenuItem {
+    text-align: right;
+    padding-left: 0;
+    padding-right: 35px;
+    margin-left: 0;
+    margin-right: -1px;
+}
+
+.myProfileMenuItem:hover {
+    color: #efa825;
+}
+
+.myProfileMenuItem.selected {
+    color: #fff;
+    background-color: #efa825;
+}
+
+.myProfileContent {
+    color: #535050;
+    padding-left: 60px;
+    width: 700px;
+}
+
+.myProfileContent select {
+    margin-bottom: 1rem;
+}
+
+.myProfileContent.subscription input[type=radio] {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.rtl .myProfileContent.subscription input[type=radio] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.myProfileContent input[type=text],
+.myProfileContent input[type=email],
+.myProfileContent input[type=password],
+.myProfileContent select {
+  max-width: 444px;
+  font-size: 18px;
+  height: 50px !important;
+  border-radius: 0;
+}
+
+.rtl .myProfileContent {
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+.myProfileContentHeader {
+    font-size: 18px;
+    margin-bottom: 36px;
+}
+
+.myProfileContentTitle {
+    font-weight: bold;
+}
+
+.myProfileSeparator {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #d2d2d2;
+}
+
+.myProfileLink {
+    color: #00bcd4;
+    cursor: pointer;
+}
+
+.myProfileLinkDisabled {
+    color: #d2d2d2;
+}
+
+.myProfileContentHeaderText {
+    font-size: 16px;
+}
+
+.myProfileDependentList {
+    margin-top: 10px;
+}
+
+.myProfileDependent {
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.myProfileDependentName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.myProfileDependentDob {
+    font-size: 18px;
+}
+
+.myProfileContent .dependentDetailContent .dependentDetailContent input {
+    font-size: 18px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollGender label {
+    font-size: 18px;
+    margin: 0;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollGenderMale,
+.myProfileContent .dependentDetailContent .dependentEnrollGenderFemale {
+    margin: 0;
+    height: 44px;
+    width: 25px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollNameGroup input {
+    margin-bottom: 1em;
+}
+
+.myProfileContent  .dependentDetailContent .dependentEnrollFirstName {
+    width: 378px;
+}
+
+input#dependentEnrollFirstName + div.error, input#dependentEnrollLastName + div.error {
+  margin: -1em 0 1em;
+}
+
+.myProfileContent  .dependentDetailContent .dependentEnrollFirstNameWithMI {
+    width: 300px;
+    float: left;
+    margin-right: 1em;
+}
+
+.rtl .myProfileContent  .dependentDetailContent .dependentEnrollFirstNameWithMI {
+    float: right;
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollMiddleInitial {
+    width: 60px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollMiddleName {
+    width: 378px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollLastName {
+    width: 378px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollDOBInputGroup {
+    display: flex;
+    width: 420px;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollDOBMonth {
+    width: 223px;
+    height: 50px !important;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollDOBDay {
+    width: 65px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollDOBYear {
+    width: 90px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollButtons {
+    display: flex;
+    width: 400px;
+    margin-bottom: 140px;
+    justify-content: space-between;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollButtons button {
+    width: 182px;
+    height: 50px;
+    background-color: #efa825;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollButtons button:hover {
+    background-color: #efa825;
+    color: #FFF;
+    border: 1px;
+}
+
+.myProfileContent .dependentDetailContent .dependentEnrollFooter {
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+div.myProfileDependentShared span {
+    color: gray;
+    font-style: italic;
+    font-weight: 200;
+    overflow-wrap: break-word;
+}
+
+.rtl .myAccountPhoneNumber {
+    direction: ltr;
+    text-align: right;
+}
+/*
+* Pharmacy
+*/
+
+.titleDivider {
+    font-weight: lighter;
+    color: #b3b3b3;
+}
+
+.addPharmacyLink {
+    font-weight: lighter;
+}
+
+.grayedOutLink {
+    font-weight: lighter;
+    color: #b3b3b3;
+}
+
+div.insuranceEligibilityModalFooter {
+  display: flex;
+  flex-direction: row;
+}
+
+.insuranceEligibilityPrompt button,
+.pharmacyAddressPicker button,
+.myProfilePharmacyContent button {
+    margin-right: 40px;
+    width: 180px;
+    height: 50px;
+    background-color: #efa825;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+}
+
+.rtl .insuranceEligibilityPrompt button,
+.rtl .pharmacyAddressPicker button,
+.rtl .myProfilePharmacyContent button {
+    margin-left: 40px;
+    margin-right: 0;
+}
+
+.pharmacyAddressPicker button:disabled,
+.myProfilePharmacyContent button:disabled {
+    background-color: #fae7be;
+}
+
+.pharmacyAddressPicker button:disabled:hover,
+.myProfilePharmacyContent button:disabled:hover {
+    color: #FFF;
+}
+
+.findPharmacy .resultSection .pharmacyList hr {
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+.findPharmacy .resultSection .pharmacyList table {
+    font-size: small;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: block;
+    margin-bottom: 3em;
+    border: none;
+    table-layout: fixed;
+    width: 640px;
+}
+
+.findPharmacy .resultSection .pharmacyList tr:hover {
+   cursor: pointer;
+}
+
+.findPharmacy .resultSection .pharmacyList td {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.findPharmacy .resultSection .pharmacyList .nameColumn,
+.findPharmacy .resultSection .pharmacyList .addressColumn,
+.findPharmacy .resultSection .pharmacyList .cityColumn {
+    width: 180px;
+    max-width: 180px;
+}
+
+.findPharmacy .resultSection .pharmacyList .typeColumn {
+    width: 100px;
+    max-width: 100px;
+}
+
+.findPharmacy .searchSection {
+    padding: 0;
+}
+
+.findPharmacy .searchSection input,
+.findPharmacy .searchSection select.form-control {
+    height: 50px;
+    margin-top: 1em;
+}
+
+.findPharmacy .searchSection .col {
+    width: 200px;
+}
+
+.searchSection .pharmacyType,
+.searchSection .city {
+    width: 305px;
+}
+
+.searchSection .state {
+    width: 150px;
+    display: inline;
+}
+
+.searchSection .zipSection {
+    display: inline;
+}
+
+.searchSection .zipSection span {
+    font-weight: bolder;
+    display: inline;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.searchSection .multiCountry .zipSection span {
+    margin-left: 0;
+}
+
+.rtl .searchSection .multiCountry .zipSection span {
+    margin-left: 1em;
+    margin-right: 0;
+}
+
+.searchSection .zipSection input {
+    display: inline;
+    width: 100px;
+    margin-top: 6px;
+}
+
+.searchSection .zipSection .form-group {
+    display: inline;
+}
+
+.searchSection .multiCountry .leftColumnInput {
+    width: 280px;
+}
+
+.searchSection .multiCountry .pharmacyType {
+    width: 169px;
+}
+
+.searchSection .multiCountry .zipSection input {
+    width: 130px;
+    display: inline;
+    margin-top: 6px;
+}
+
+.findPharmacy .searchSection button {
+    width: 120px;
+    margin-top: 16px;
+}
+
+.consumerPharmacies {
+    margin-top: 2em;
+}
+
+.consumerPharmaciesTitle {
+    margin-bottom: .5em;
+    font-size: 1.15em;
+}
+
+.consumerPharmacy .pharmacyName {
+    font-weight: bolder;
+}
+
+.consumerPharmacySingle, .consumerPharmacyMultiple {
+    margin-bottom: 2em;
+    font-size: 1.1em;
+}
+
+.consumerPharmacyMultiple .pharmacyLinks {
+    font-size: .9em;
+}
+
+.consumerPharmacyMultiple {
+    display: inline-block;
+}
+
+.consumerPharmacyRadio {
+    max-width: 20px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+.rtl .consumerPharmacyRadio {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.preferred {
+    font-weight: normal;
+}
+
+.pharmacyList .selected, .pharmacyList .selected:hover {
+    background-color: #fdf7e9;
+}
+
+.pharmacyAddressPicker {
+    max-height: none;
+}
+
+.pharmacyAddressPicker .header {
+    height: 80px;
+}
+
+.pharmacyAddressPicker .description {
+    margin-top: 1em;
+    font-weight: bolder;
+    margin-bottom: 1.5em;
+}
+
+.pharmacyAddressPicker .radioLabel {
+    margin-right: 1em;
+    margin-bottom: 1.5em;
+}
+
+.rtl .pharmacyAddressPicker .radioLabel {
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+.pharmacyAddressPicker .radio {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: .25em;
+}
+
+.rtl .pharmacyAddressPicker .radio {
+    margin-right: 0;
+    margin-left: .25em;
+}
+
+.pharmacyAddressPicker .homeAddress .name {
+    font-weight: bolder;
+}
+
+.pharmacyAddressPicker .footer button {
+    width: 150px;
+    margin-right: 25px;
+}
+
+.rtl .pharmacyAddressPicker .footer button {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.pharmacyAddressPicker input {
+    width: 100%;
+    height: 50px;
+}
+
+.pharmacyAddressPicker select {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    height: 50px !important;
+}
+
+.pharmacyAddressPicker .zipWrapper {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.rtl .pharmacyAddressPicker .zipWrapper {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+.pharmacyAddressPicker .addressInput .zip,
+.pharmacyAddressPicker .addressInput .state {
+    display: inline;
+    width: 120px;
+}
+
+.pharmacyAddressPicker .footer {
+  padding: 0 32px 50px;
+  display: flex;
+  justify-content: space-evenly;
+  display: flex !important;
+}
+
+.pharmacyAddressPicker .pharmacyPickerButton {
+  margin: 10px 4px !important;
+}
+
+/*
+* Insurance/Subscription
+*/
+
+.subscription .myProfileInputContainer .form-check-label {
+    margin-right: 50px;
+}
+
+.rtl .subscription .myProfileInputContainer .form-check-label {
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+.myProfileInputContainer.primarySubRadio {
+    margin-bottom: 30px;
+}
+
+.subscriberIdContainer {
+    display: inline-flex;
+    max-width: 444px
+}
+
+.subscriberIdContainer .subscriberId {
+    width: 440px;
+}
+
+.subscriberIdContainer .subscriberIdWithSuffix {
+    width: 325px;
+    margin-right: 10px;
+}
+
+.rtl .subscriberIdContainer .subscriberIdWithSuffix {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.subscriberIdContainer .healthPlanSuffix {
+    width: 110px;
+}
+
+.subscriberIdContainer .error {
+    max-width: 440px;
+    min-width: 120px;
+    margin-left: 0;
+}
+
+.errorContainer {
+    color: #d90000;
+    width: 455px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.myProfileContent .consumerSubscriptionInfo {
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+.rtl .myProfileContent .consumerSubscriptionInfo {
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+.myProfileContent .consumerSubscriptionInfo .form-group {
+    margin-top: 0px;
+}
+
+.myProfileContent label {
+    vertical-align: middle;
+}
+
+.insuranceOptionRadio {
+    margin-bottom: 30px;
+}
+
+.inputGroupHeader {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.healthPlanCardImage {
+    max-height: 178px;
+    max-width: 257px;
+}
+
+img.healthPlanCardImage {
+    margin-top: 105px;
+    margin-left: -200px;
+}
+
+.rtl img.healthPlanCardImage {
+    margin-left: 0px;
+    margin-right: -200px;
+}
+
+.healthPlanImageToggle {
+    margin-left: -20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.rtl .healthPlanImageToggle {
+    margin-right: -20px;
+    margin-left: 0px;
+}
+
+.myProfileSubscriberName {
+    width: 470px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.modal-dialog.genericModal.insuranceEligibilityPrompt {
+  width: 600px;
+}
+
+.insuranceEligibilityPrompt .header {
+    height: 80px;
+}
+
+.insuranceEligibilityPrompt .description {
+    margin-top: 1em;
+    font-weight: bolder;
+    margin-bottom: 1.5em;
+}
+
+.insuranceEligibilityPrompt .description,
+.insuranceEligibilityPrompt .saveAnyway {
+    word-break: keep-all;
+}
+
+.relToPrimarySubscriberError {
+    margin-bottom: 1em;
+}
+
+.denialDescription {
+    margin-bottom: 2em;
+    font-size: 14px;
+}
+
+.visitReportDispositions {
+    margin-top: 36px;
+}
+
+.visitDispositionChoice {
+    margin: 0 12px;
+}
+
+.dependentLinkingModal {
+    width: 475px;
+    font-family: 'Open Sans';
+    overflow-y: unset;
+    border: unset;
+}
+.dependentLinkingModal .modal-content {
+    border: unset;
+    border-radius: 0;
+}
+.dependentLinkingModal .header {
+    height: 90px;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    background-color: #00bcd4;
+    color: #ffffff;
+}
+
+.dependentLinkingModal h4.modal-title {
+    margin: 0 20px;
+    font-weight: 800 !important;
+}
+
+.dependentLinkingModalBody {
+    margin: 0 20px;
+    font-family: 'Open Sans';
+    color: #535050;
+    font-size: 18px;
+}
+
+.dependentLinkingModalBody.messageSent {
+  margin-bottom: -10px;
+}
+
+.dependentLinkingCheckBoxes {
+    margin: 0 1.24em;
+}
+
+p.dependentLinkingBodyText, p.dependentLinkinBodyText > span {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #535050;
+}
+.bold {
+    font-weight: 600;
+}
+.dependentLinkingFooter {
+    display: flex !important;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.dependentLinkingFooter.addChildModal {
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+.dependentLinkingFooter.addChildModal span, .accessRequestFooter span {
+    color: #00bcd4;
+    margin-top: 12px;
+}
+.dependentLinkingFooter.addChildModal span:hover, .accessRequestFooter span:hover {
+    cursor: pointer;
+}
+.dependentLinkingButton {
+    width: 165px;
+    height: 52px;
+    border-radius: 5px;
+    background-color: #efa825;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    font-family: 'Open Sans';
+}
+.dependentLinkingButton.largeButton {
+    width: 306px;
+}
+.dependentLinkingButton:hover {
+    cursor: pointer;
+    background-color: #ee9e0a;
+    color: #ffffff;
+}
+.dependentLinkingButton:disabled {
+    cursor: unset;
+    background-color: #efa825;
+    opacity: 0.5;
+}
+.dependentLinkingModal input[type='radio'] {
+    height: 17px;
+    margin: 0 5px;
+}
+
+.dependentLinkingModal .form-check-input {
+    margin: 0;
+}
+
+.linkedParentEmail {
+    height: 50px !important;
+    width: 395px !important;
+    border-radius: unset;
+    border: solid 1px #d6d6d6;
+    font-size: 18px;
+    color: #d6d6d6;
+}
+
+.dependentLinkingDisclaimer {
+    width: 395px;
+    font-size: 14px;
+}
+
+.notificationContent {
+    height: 170px;
+    padding: 20px;
+    margin-bottom: 25px;
+    background-color: #f5f5f5;
+}
+
+.notificationHeader {
+    width: 356px;
+    margin-bottom: 19px;
+}
+
+.notificationHeaderTitle, .accessRequestHeaderTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #535050;
+}
+
+.notificationBody {
+    margin-bottom: 11px;
+}
+
+.notificationBody span, .accessRequestHeader span {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.accessRequestHeader span {
+    margin-bottom: 5px;
+}
+
+.notificationBodyTitle {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.4;
+}
+
+.notificationBodyText {
+    font-size: 16px;
+}
+
+.notificationFooterText {
+    font-size: 18px;
+    color: #00bcd4;
+}
+
+.notificationFooterText:hover {
+    cursor: pointer;
+}
+
+.accessRequestBodyIntro {
+    margin: 25px 0 0;
+}
+
+
+.dependentAccessCheckbox {
+  margin: 35px 20px 0;
+  color: #535050;
+  font-size: 18px;
+}
+
+.dependentAccessCheckbox .form-check {
+  margin-bottom: 45px;
+}
+
+.dependentAccessCheckbox .form-check-input {
+  margin: 0;
+  position: initial;
+  width: 24px;
+  height: 24px;
+}
+
+.dependentAccessCheckbox .form-check-label {
+  display: flex;
+}
+
+.dependentAccessFullname {
+  font-weight: 600;
+}
+
+.dependentAccessTextContent {
+  margin: 0 13px;
+}
+
+.accessRequestDisclaimer {
+    margin: 35px 0;
+    font-size: 14px;
+}
+.accessRequestFooter {
+    display: flex;
+    flex-flow: column nowrap;
+    width: fit-content;
+    text-align: center;
+}
+.dependentLinkingButton.accessButton {
+    width: 270px;
+    border: none;
+}
+.zipAndStateWrapper {
+  display: flex;
+}
+
+.zipAndStateWrapper .state {
+  width: fit-content !important;
+}
+.zipWrapper div.error {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.myProfileInsurance {
+    display: table;
+}
+
+.myProfileInsurance .myProfileValueContainer {
+    display: table-row;
+}
+
+.myProfileInsurance .rowGroup {
+    width: 100%;
+}
+
+.myProfileInsurance .labelCell {
+    display: table-cell;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: bold;
+    width: 121px;
+    padding-bottom:20px;
+}
+
+.myProfileInsurance .primarySubscriber {
+    width: 174px;
+}
+
+.myProfileInsurance .valueCell {
+    display: table-cell;
+}
+
+.rtl .myProfileInsurance .valueCell {
+    padding-right: 25px;
+}
+
+.ltr .myProfileInsurance .valueCell {
+    padding-left: 25px;
+}

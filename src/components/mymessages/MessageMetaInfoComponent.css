@@ -1,0 +1,9 @@
+.messageMetaInfo {
+    font-size: 14px;
+    line-height: 27px;
+}
+.messageMetaInfoLabel {
+    font-weight: bold;
+    width: 100px;
+    display: inline-block;
+}

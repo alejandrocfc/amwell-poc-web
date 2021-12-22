@@ -1,0 +1,134 @@
+.cartModePatientComponent {
+  color: #535050;
+}
+
+.cartModePatientHeader {
+  margin-top: 65px;
+  margin-bottom: 45px;
+  font-size: 16px;
+  text-align: center;
+}
+
+.cartModePatientHeader span {
+  display: block;
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  margin-bottom: 30px;
+}
+
+.cartModePatientInputs {
+  margin: 0 auto;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cartModePatientInputs .form-check-label,
+.cartModePatientInputs .form-group {
+  margin: 0;
+}
+
+.cartModePatientInputs select,
+.cartModePatientInputs input[type=text] {
+  border: solid 1px #d6d6d6;
+  border-radius: 0;
+  height: 50px !important;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.cartModePatientInputs .stateAndZipContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartModePatientInputs .stateAndZipContainer .state {
+  margin: 0;
+  width: 270px;
+}
+
+.cartModePatientInputs .stateAndZipContainer .zipCode {
+  margin: 0;
+  width: 145px;
+}
+
+
+.cartModePatientInputs .firstNameAndInitial {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartModePatientInputs .firstNameAndInitial input:first-child {
+  width: 80%;
+}
+
+.cartModePatientInputs .firstNameAndInitial input:last-child {
+  width: 15%;
+}
+
+.cartModePatientDobTitle {
+  size: 14px;
+  font-weight: 700;
+}
+
+.cartModePatientDobInputGroup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartModePatientDobInputGroup input {
+  width: 100%;
+}
+
+.cartModePatientDobInputGroup .cartModePatientDobMonth {
+  width: 55%;
+}
+
+.cartModePatientDobInputGroup .cartModePatientDobDayWrapper {
+  width: 15%;
+}
+
+.cartModePatientDobInputGroup .cartModePatientDobYearWrapper {
+  width: 20%;
+}
+
+.cartModePatientButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 225px;
+}
+
+.cartModePatientButtons button {
+  width: 240px;
+  margin: 16px;
+}
+
+.cartModePatientButtons button:disabled {
+  background-color: #d6d6d6;
+  cursor: not-allowed;
+}
+
+.cartModePatientButtons button:hover {
+  background-color: #d6d6d6;
+}
+
+.cartModePatientButtons a {
+  width: max-content;
+}
+
+.cartModePatientInputs .errorInput {
+  border-color: red !important;
+  margin-bottom: 0 !important;
+}
+
+.cartModePatientInputs .error {
+  height: 50px;
+}
+
+.cartModePatientGender div.gender-wrapper {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,599 @@
+::-webkit-input-placeholder {
+    color: #b3b3b3 !important;
+}
+
+select:required:invalid, select:disabled, input:disabled {
+    color: #b3b3b3;
+}
+
+.myHealthHeader {
+    background: url('../images/banners/hiking-sunset.png') no-repeat;
+    background-size: cover;
+    height: 327px;
+    padding-top: 194px;
+    padding-left: 520px;
+    margin-bottom: 25px;
+}
+
+.myHealthBody {
+    max-width: 965px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px 40px;
+}
+
+.myHealthTitle {
+    width: 134px;
+    height: 27px;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #535050;
+    margin-bottom: 44px;
+}
+
+.rtl .myHealthTitle {
+    text-align: right;
+}
+
+.myHealthContainer {
+    display: flex;
+}
+
+.myHealthMenuContainer {
+    width: 185px;
+}
+
+.myHealthMenu {
+    outline: solid 1px #efa825;
+    width: 185px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myHealthMenuItem {
+    font-size: 16px;
+    font-weight: bold;
+    color: #8b8b8b;
+    padding: 0 18px;
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.myHealthMenuItem:hover {
+    color: #efa825;
+}
+
+.myHealthMenuItem.selected {
+    color: #fff;
+    background-color: #efa825;
+}
+
+.myHealthContent {
+    color: #535050;
+    padding-left: 60px;
+    width: 700px;
+}
+
+.rtl .myHealthContent {
+    padding-left: 0;
+    padding-right: 60px;
+}
+
+.myHealthContentHeader {
+    font-size: 18px;
+    margin-bottom: 36px;
+    line-height: 26px;
+}
+
+.myHealthContentTitle,
+.myhealth-tracker-template-title {
+    font-weight: bold;
+}
+
+.myhealth-tracker-template-title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.myHealthSeperator {
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #d2d2d2;
+}
+
+.myHealthHistoryContent,
+.myHealthAllergiesContent,
+.myHealthMedicationsContent,
+.myHealthVitalsContent,
+.myHealthDocumentsContent {
+    margin-top: 25px;
+}
+.myHealthMeasurementsContent {
+    margin-top: 43px;
+}
+.tracker-template-grid-row {
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    height: 19px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: var(--aqua);
+}
+.tracker-entries-grid,
+.tracker-entries-filter-input-group {
+	display: table;
+	width: 100%;
+}
+.tracker-entries-filter-input-group {
+    margin: 29px 0px 42px 0px;
+    clear: both;
+}
+.myhealth-tracker-entry-row,
+.tracker-entries-filter-input-row,
+.tracker-entries-grid-header {
+    display: table-row;
+}
+.myhealth-tracker-entry-row {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #535050;
+    height: 41px;
+}
+.myhealth-tracker-entry-row .myhealth-tracker-cell {
+    border-bottom: 1px solid #d6d6d6;
+    vertical-align: middle;
+}
+div.myhealth-tracker-entry-time-cell {
+    min-width: 210px;
+    vertical-align: top;
+    display: inline-flex;
+}
+div.myhealth-tracker-entry-date-cell {
+    min-width: 161px;
+    vertical-align: top;
+    display: inline-flex;
+}
+.tracker-entries-filter-input-row,
+.tracker-entries-filter-input-cell {
+    vertical-align: top;
+}
+.myhealth-tracker-cell,
+.tracker-entries-filter-input-cell,
+.myhealth-tracker-data-point {
+    display: table-cell;
+}
+.myhealth-tracker-data-point {
+    width: 190px;
+    padding-right: 100px;
+}
+.rtl .myhealth-tracker-data-point {
+    width: 190px;
+    padding-left: 100px;
+    padding-right: 0px;
+}
+.tracker-entries-grid-header {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.9px;
+    color: #535050;
+    text-transform: uppercase;
+}
+.myhealth-tracker-date-cell {
+    padding-right: 25px;
+    width: 69px;
+    padding-left: 20px;
+}
+.rtl .myhealth-tracker-date-cell {
+    padding-left: 25px;
+}
+.myhealth-tracker-time-cell {
+    padding-right: 145px;
+    width: 150px;
+    padding-bottom: 5px;
+}
+.rtl .myhealth-tracker-time-cell {
+    padding-left: 145px;
+    padding-right: 0px;
+}
+.myHealthLink {
+    color: #00bcd4;
+    cursor: pointer;
+}
+
+.myHealthLinkDisabled {
+    color: #d2d2d2;
+}
+
+.myHealthContentHeaderText {
+    font-size: 16px;
+}
+
+.myHealthHistoryCol, .myHealthAllergiesCol {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.medicationLookup {
+    display: inline-flex;
+}
+
+.myMedicationsInput {
+    width: 493px;
+    height: 50px;
+    font-size: 18px;
+    padding: 11px 21px 15px 21px;
+}
+
+.myMedicationsButton {
+    margin-left: 22px;
+    width: 125px;
+    height: 50px;
+    background-color: #efa825;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.rtl .myMedicationsButton {
+    margin-left: 0;
+    margin-right: 22px;
+}
+
+.myMedicationsButton:hover {
+    margin-left: 22px;
+    width: 125px;
+    height: 50px;
+    background-color: #efa825;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.rtl .myMedicationsButton:hover {
+    margin-left: 0;
+    margin-right: 22px;
+}
+
+.myMedicationsButton:disabled {
+    background-color: #efa825;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFF;
+    opacity: 0.5;
+    cursor: not-allowed;
+ }
+
+.myMedicationsList,
+.myDocumentsList {
+    margin-top: 30px;
+    width: 493px;
+    border-bottom: solid 1px #d6d6d6;
+ }
+
+.myDocumentsList {
+    width: 642px;
+ }
+
+.myMedicationsListEntry,
+.myDocumentsListEntry  {
+    height: 56px;
+    border-top: solid 1px #d6d6d6;
+    line-height: 56px;
+    font-size: 18px;
+    color: #313336;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myDocumentsListEntryName {
+    overflow: hidden;
+    width: 95%;
+    text-overflow: ellipsis;
+}
+
+.myHealthMedicationsContent .react-datalist {
+    margin-top: 30px;
+}
+
+.myDeleteIcon {
+    background: url('./images/icon-delete-item-orange.png') no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    float: right;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.rtl .myDeleteIcon {
+    float: left;
+}
+
+.myTrackerTemplateContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.myhealth-tracker-add-content {
+    margin-top: 20px;
+    margin-bottom: 42px;
+}
+
+.myhealth-tracker-label {
+    margin-right: 10px;
+    font-size: 18px;
+    float: left;
+}
+
+.rtl .myhealth-tracker-label {
+    float: right;
+    margin: 0px 0px 0px 10px;
+}
+
+.myhealth-tracker-time-label {
+    margin-left: 45px;
+}
+
+.rtl div.myhealth-tracker-time-label {
+    margin-right: 45px;
+}
+
+.myhealth-tracker-date-label,
+.myhealth-tracker-time-label {
+    padding-top: 10px;
+}
+
+.myhealth-tracker-row {
+    display: inline;
+    padding-top: 10px;
+    clear: both;
+}
+
+.myhealth-tracker-entry-input-row {
+    margin-left: 50px;
+    padding-top:32px;
+}
+
+.rtl .myhealth-tracker-entry-input-row {
+    margin-right: 50px;
+    margin-left: 0px;
+}
+
+div.myhealth-tracker-entry-date-time {
+    display: inline-block;
+    -ms-flex-pack: justify;
+    justify-content: left;
+    width:100%;
+    margin-left: 0px;
+}
+.rtl div.myhealth-tracker-entry-date-time {
+    margin-right: 0px;
+}
+.myhealth-tracker-filter-to {
+    width: 68px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+    float:left;
+}
+
+.rtl .myhealth-tracker-filter-to {
+    float:right;
+}
+
+.myhealth-tracker-input {
+    width: 111px;
+    height: 50px;
+    font-size: 18px;
+    float: left;
+    border-radius: 0px !important;
+}
+
+.rtl .myhealth-tracker-input {
+    float: right;
+}
+
+.myhealth-tracker-units {
+    padding: 10px 0px 0px 120px;
+    margin-right: 35px;
+}
+
+.rtl .myhealth-tracker-units {
+    padding: 10px 120px 0px 0px;
+    margin: 0px 0px 0px 20px;
+}
+
+.myhealth-tracker-delete {
+    margin: 15px 0px 0px 150px;
+    display: inline-block;
+}
+
+.rtl .myhealth-tracker-delete {
+    margin: 15px 150px 0px 0px;
+    display: inline-block;
+}
+.myHealthContentDescription {
+    font-size: 16px;
+    line-height: 22px;
+}
+.myhealth-tracker-entries-note {
+    padding: 45px 0px 15px 0px;
+    font-size: 14px;
+}
+
+.myhealth-tracker-footer {
+    margin-top: 45px;
+    clear: both;
+    text-align: center;
+}
+
+.myhealth-tracker-button {
+    width: 182px;
+    height: 50px;
+    background-color: #efa825;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.myhealth-tracker-button:hover {
+    width: 182px;
+    height: 50px;
+    background-color: #efa825;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.myhealth-tracker-button:disabled {
+    background-color: #efa825;
+    font-weight: 800;
+    font-size: 24px;
+    color: #FFF;
+    opacity: 0.5;
+    cursor: not-allowed;
+ }
+
+ input[type="file"].myDocumentsInput  {
+    display: none;
+}
+
+.myDocumentsInputLabel {
+    color: #00bcd4;
+    font-size: 18px;
+    display: inline-block;
+    padding-top: 28px;
+    cursor: pointer;
+}
+
+.myHealthContent .boldingLabel {
+    padding: 0 5px;
+}
+
+.myHealthContent .boldingLabel.bold {
+    font-weight: bolder;
+}
+
+.myhealth-tracker-cell .error,
+.tracker-entries-filter-input-cell .error
+ {
+    margin: 10px 15px 0px 0px;
+    float: left;
+}
+
+.rtl .myhealth-tracker-cell .error,
+.rtl .tracker-entries-filter-input-cell .error {
+    margin: 10px 0px 0px 15px;
+    float: right;
+}
+
+.myhealth-tracker-entry-date-cell .error {
+    margin: 10px 15px 0px 0px;
+    float: left;
+}
+
+.rtl .myhealth-tracker-entry-date-cell .error {
+    margin: 10px 0px 0px 0px;
+    float: right;
+}
+
+
+.myVitalsLabel {
+    padding-top: 10px;
+    width: 155px;
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+}
+
+.rtl .myVitalsLabel {
+    float: right;
+}
+
+.myVitalsTemperature,
+.myVitalsWeight,
+.myVitalsHeight
+ {
+    padding-top: 33px;
+    clear: both;
+}
+
+.myVitalsInput {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    float: left;
+}
+
+.rtl .myVitalsInput{
+    float: right;
+}
+
+.myVitalsUnits {
+    padding-top: 10px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 43px;
+	width: 35px;
+}
+
+.rtl .myVitalsUnits {
+    float: right;
+    margin-right: 10px;
+    margin-left: 43px;
+}
+
+.myVitalsFooter {
+    margin-top: 125px;
+    clear: both;
+}
+
+.myVitalsButton {
+    width: 150px;
+    height: 44px;
+    background-color:#efa825 !important;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.myVitalsButton:hover {
+    width: 150px;
+    height: 44px;
+    background-color: #efa825;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+

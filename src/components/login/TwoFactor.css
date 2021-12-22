@@ -1,0 +1,175 @@
+/*!
+ * American Well Consumer Web SDK Sample App
+ *
+ * Copyright © 2020 American Well.
+ * All rights reserved.
+ *
+ * It is illegal to use, reproduce or distribute
+ * any part of this Intellectual Property without
+ * prior written authorization from American Well.
+ */
+#login.twoFactor {
+  padding-top: 190px;
+}
+
+#login.twoFactor form {
+  width: 450px;
+  padding-bottom: 15px;
+}
+
+#login.twoFactor h1 {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+  color: #5d5b5b;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#login .headerBar {
+  width: 450px;
+  height: 75px;
+  background-color: #e7e7e7;
+  margin: auto;
+}
+
+#login.twoFactor label {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #535050;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#login.twoFactor #phoneNumber,
+#login.twoFactor #verificationCode {
+  width: 100%;
+}
+
+#login.twoFactor .twoFactorMessage {
+  text-align: center;
+  font-size: 14px;
+  padding: 13px 0 10px;
+}
+
+#login.twoFactor .twoFactorDetails {
+  font-size: 12px;
+  text-align: center;
+  color: #535050;
+  padding: 5px 0 14px 0;
+}
+
+#login.twoFactor .twoFactorDetails.compact {
+  padding: 5px 0 0 0;
+}
+
+#login.twoFactor .formSpacing {
+  margin: 18px 0 5px;
+}
+
+#login.twoFactor .formSpacing .form-group {
+  margin-bottom: 0;
+}
+
+#login.twoFactor button {
+  width: 390px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+#login.twoFactor .linkLike {
+  display: block;
+  height: fit-content;
+  width: fit-content;
+  font-size: 14px;
+  color: #00bcd4;
+  background-color: white;
+  text-transform: capitalize;
+  text-align: left;
+  font-weight: normal;
+  padding: unset;
+  margin: -5px 0 0 0;
+}
+
+#login.twoFactor .rememberDevice,
+#login.twoFactor .rememberDevice label {
+  text-align: left;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+  margin-bottom: 0;
+}
+
+.rtl #login.twoFactor .rememberDevice,
+.rtl #login.twoFactor .rememberDevice label {
+  text-align: right;
+}
+
+#login.twoFactor .rememberDeviceDetails {
+  font-size: 12px;
+  color: #535050;
+  padding: 0 0 23px 21px;
+}
+
+.rtl #login.twoFactor .rememberDeviceDetails {
+  font-size: 12px;
+  color: #535050;
+  padding: 0 21px 23px 0;
+}
+
+#login.twoFactor input[type=checkbox] {
+  margin: 0 5px 2px 0;
+}
+
+.rtl #login.twoFactor input[type=checkbox] {
+  margin: 0 0 2px 5px;
+}
+
+
+#login.twoFactor .verifyButtonContainer {
+  margin-bottom: 15px;
+}
+
+#login.twoFactor .skipVerification {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#login.twoFactor .skipVerificationLink {
+  display: inline-block;
+}
+
+#login.twoFactor .twoFactorFooter {
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 17px;
+  color: #d6d6d6;
+}
+
+#login.twoFactor .footerSeparator {
+  width: 1px;
+  height: 20px;
+  border-left: solid 1px #d6d6d6;
+  margin-left: 10px;
+  margin-right: 9px;
+}
+
+#login.twoFactor .twoFactorFooterButton {
+  height: fit-content;
+  width: fit-content;
+  font-size: 12px;
+  color: #00bcd4;
+  background-color: white;
+  text-transform: none;
+  font-weight: normal;
+  padding: unset;
+  margin-top: 0px;
+}
+
+.genericModalMessage .touPopupInner {
+  font-size: 14px;
+}

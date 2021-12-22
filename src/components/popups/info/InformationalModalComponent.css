@@ -1,0 +1,28 @@
+.modal-content {
+  height: auto;
+  min-height: 500px;
+  max-height: 600px;
+  margin-top: 0px;
+}
+
+.modal-header {
+  background-color: #00bcd4;
+  display: inline-block;
+  text-align: center;
+}
+
+.modal-body {
+  background-color: white;
+  text-align: left;
+}
+
+.modal-body div {
+  display: block;
+}
+
+div.modal-footer button {
+  border: solid 0.5px;
+  background-image: linear-gradient(to bottom, rgba(239, 204, 72, 0.99), #ef9c23);
+  color: white;
+}
+

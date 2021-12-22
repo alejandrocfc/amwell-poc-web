@@ -1,0 +1,66 @@
+.visitPhoneInProgressComponent {
+  color: #535050;
+  padding-bottom: 145px;
+}
+
+.visitPhoneInProgressMessages {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.visitPhoneInProgressMessages span {
+  font-weight: bold;
+}
+
+.visitPhoneInProgressMessages > div {
+  width: 400px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.visitPhoneInProgressLogo {
+  margin-top: 60px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.visitPhoneInProgressAquaBg {
+  background-color: #00bcd4;
+  height: 203px;
+  width: 203px;
+  border-radius: 203px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.visitPhoneInProgressAquaBg img {
+  width: 100px;
+  height: 100px;
+}
+
+.visitPhoneInProgressComponent button {
+  margin-top: 10px;
+  background-color: #efa825;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFF;
+  border: 0;
+  width: 267px;
+  height: 52px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.visitPhoneInProgressComponent button:hover {
+  opacity: .5;
+}
+
+.visitPhoneInProgressComponent button:focus {
+  outline: none;
+}

@@ -1,0 +1,101 @@
+#configuration {
+  padding-top: 5%;
+  height: 100vh;
+  background: url('../images/lobby.png') center/cover no-repeat;
+}
+
+#configuration .configurationHeader {
+  background-color: #e7e7e7;
+  height: 75px;
+}
+
+#configuration .configurationIntro {
+  text-align: center;
+  color: #535050;
+}
+
+#configuration .configurationTitle {
+  font-size: 20px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+
+#configuration .configurationMessage {
+  margin-top: 17px;
+  margin-bottom: 40px;
+  font-size: 14px;
+}
+
+#configuration  form {
+  width: 390px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+#configuration label {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #535050;
+}
+
+#configuration .formSpacing {
+  margin: 20px;
+}
+
+#configuration .formSubmit {
+  text-align: center;
+}
+
+#configuration input[type=text] {
+  padding: 10px;
+  width: 350px;
+  height: 50px;
+  font-size: 18px;
+  outline-color: #c0c0c0;
+}
+#configuration input[type=url] {
+  padding: 10px;
+  width: 350px;
+  height: 50px;
+  font-size: 18px;
+  outline-color: #c0c0c0;
+}
+
+#configuration input[type=checkbox] {
+  height: 15px;
+  width: 15px;
+  margin-right: 4px;
+  margin-left: 0;
+}
+
+.rtl #configuration input[type=checkbox] {
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+#configuration button {
+  background-color: #efa825;
+  font-size: 24px;
+  font-weight: 800;
+  color: #FFF;
+  border: 0;
+  width: 340px;
+  height: 50px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#configuration .formError {
+  margin: 20px;
+  color: #FF6767;
+  font-size: 14px;
+  text-align: left;
+}
+
+.rtl #configuration .formError {
+  text-align: right;
+}

@@ -1,0 +1,17 @@
+.paymentAddOrChangeComponent {
+    font-size: 20px;
+}
+
+.paymentAddOrChangeComponent .separator {
+    color: #d7d7d7;
+    padding: 0 5px;
+}
+
+.paymentAddOrChangeComponent .cardIcon {
+    background: url('../payment/images/iconCreditCard.png');
+    width: 35px;
+    height: 26px;
+    display: inline-block;
+    margin-right: 17px;
+    margin-bottom: -5px;
+}

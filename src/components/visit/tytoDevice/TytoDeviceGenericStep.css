@@ -1,0 +1,27 @@
+/*!
+ * American Well Consumer Web SDK Sample App
+ *
+ * Copyright © 2020 American Well.
+ * All rights reserved.
+ *
+ * It is illegal to use, reproduce or distribute
+ * any part of this Intellectual Property without
+ * prior written authorization from American Well.
+ */
+ 
+.genericStepBodyIcon {
+  width: 111px;
+  height: 131px;
+  object-fit: contain;
+  margin: 0 auto;
+  background: no-repeat;
+  margin-bottom: 60px;
+}
+
+.genericStepBodyIcon.devicePaired {
+  background-image: url('./images/device-paired.png');
+}
+
+.genericStepBodyIcon.deviceFailed {
+  background-image: url('./images/device-failed.png');
+}

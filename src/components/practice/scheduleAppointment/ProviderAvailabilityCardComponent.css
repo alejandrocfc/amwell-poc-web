@@ -1,0 +1,56 @@
+.providerAvailabilityCard {
+    margin-bottom: 35px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
+}
+
+.providerAvailabilityCard .container {
+    padding: 23px 21px 23px 21px;
+}
+
+.providerAvailabilityCard .image {
+    max-width: max-content;
+}
+
+.providerAvailabilityCard .image img {
+     width: 118px;
+     height: 118px;
+     object-fit: cover;
+     object-position: top;
+     border: solid 4px #00bcd4;
+     border-radius: 118px;
+ }
+
+.providerAvailabilityCard .nameAndSpecialty {
+    padding: 0;
+}
+
+.providerAvailabilityCard .nameAndSpecialty .name {
+    font-weight: bolder;
+}
+
+.providerAvailabilityCard .nameAndSpecialty .profileLink {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.providerAvailabilityCard .timeSlots .table {
+    width: 400px;
+    border: solid 1px #e8e8e8;
+    margin: 0;
+}
+
+.providerAvailabilityCard .timeSlots td {
+    font-weight: bolder;
+    padding: 7px 10px 7px 10px;
+    text-align: center;
+    color: #00bcd4;
+    border: solid 1px #e8e8e8;
+}
+
+.providerAvailabilityCard .timeSlots td:hover {
+    background-color: #efa825;
+    color: #ffffff;
+    cursor: pointer;
+}
+

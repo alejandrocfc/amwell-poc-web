@@ -1,0 +1,37 @@
+.guestNameContainer, .guestEmailContainer {
+    font-family: OpenSans, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: 1px;
+    color: #535050;
+}
+.guestNameContainer .label, .guestEmailContainer .label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.guestEmailContainer {
+    margin-top: 45px;
+}
+
+.technicalAssistance {
+    text-align: center;
+    color: #535050;
+    font-size: 16px;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    padding-bottom: 60px;
+}
+
+.visitWaitingRoom.guest .waitingRoomGreeting {
+    margin-top: 10px;
+}
+
+.visitWaitingRoom.guest .visitCancelRequest {
+    padding-bottom: 20px;
+}

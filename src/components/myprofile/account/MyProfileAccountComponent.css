@@ -1,0 +1,247 @@
+/*
+* My Account
+*/
+
+.myProfileAccountContent:first-child {
+  margin-top: 26px;
+}
+
+.myProfileAccountContent hr {
+  height: 1px;
+  padding: 0;
+  margin: 35px 0;
+}
+
+.myProfileContentSubheader {
+  display: inline-flex;
+  font-weight: bold;
+  font-family: 'Open Sans bold', sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+
+.myProfileInputContainer .myAccountGender div.gender-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.myProfileContentDescription {
+  padding-bottom: 26px;
+}
+
+.myProfileValueContainer {
+  margin-bottom: 20px;
+}
+
+.myProfileValueLabel {
+  display: inline-flex;
+  font-size: 18px;
+}
+
+.myProfileValueLabel > div:not(:first-child) {
+  margin: 0 10px;
+}
+
+.myProfileInputContainer .error {
+  margin: 10px 0;
+  max-width: 444px;
+}
+
+.myProfileInputContainer select {
+  font-size: 18px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.myProfileInputContainer input {
+  height: 50px;
+}
+
+
+/*
+
+  Gender Checkboxes
+
+*/
+
+.myAccountGender > div,
+.myAccountGender label {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  margin-bottom: 10px;
+}
+
+.myAccountGender input {
+  width: 25px;
+  margin: 0;
+}
+
+.myAccountGender .genderText {
+  margin: 0 40px;
+}
+
+/*
+
+  Reminder Checkbox
+
+*/
+
+.myProfileReminderBox label {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.myProfileReminderBox input {
+  margin: 0;
+  width: 25px;
+}
+
+.myProfileReminderBox span {
+  margin: 0 40px;
+}
+
+/*
+
+  Button
+
+*/
+
+.myProfileAccountBtn {
+  height: 50px;
+  background-color: #efa825;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.myProfileAccountBtn:hover {
+  background-color: #efa825;
+  color: #FFF;
+  border: 1px;
+}
+
+.myProfileAccountBtn:disabled {
+  background-color: #fae7be;
+}
+
+.myProfileAccountBtn:disabled:hover {
+  color: #FFF;
+}
+
+.myProfileButtonContainer {
+  display: flex;
+}
+
+.myProfileButtonContainer div {
+  display: flex;
+  width: 182px;
+}
+
+.myProfileButtonContainer > div:not(:first-child) {
+  margin: 0 20px;
+}
+
+.myProfileButtonContainer button {
+  width: 182px;
+}
+
+.myAccountDobInputGroup {
+  display: flex;
+  justify-content: space-between;
+  width: 444px;
+}
+
+.myAccountDobMonth {
+  width: 240px;
+}
+
+.myAccountDobDay {
+  width: 72px;
+}
+
+.myAccountDobYear {
+  width: 90px;
+}
+
+.consumerSubscriptionInfo .myProfileInputContainer select {
+  height: 50px !important;
+}
+
+.myProfileInputContainer select#legalResidenceState {
+  width: 444px !important;
+}
+
+.myProfileValueLabel .labelValue {
+  font-weight: bold;
+}
+
+.myAccountNameGroup input {
+  margin-bottom: 1em;
+}
+
+.myAccountFirstNameWithMI {
+  width: 52% !important;
+  float: left;
+}
+
+.rtl .myAccountFirstNameWithMI {
+  float: right;
+}
+
+.myAccountMiddleInitial {
+  width: 14% !important;
+}
+
+.personalInfo .address select,
+.shippingAddress .address select {
+  height: 50px !important;
+}
+
+.personalInfo .address .state,
+.shippingAddress .address .state {
+  width: 200px;
+  display: inline;
+  margin-top: 0;
+}
+
+.personalInfo .address .zipCode,
+.shippingAddress .address .zipCode,
+.personalInfo .stateAndZipContainer .form-group,
+.shippingAddress .stateAndZipContainer .form-group {
+  width: 100px;
+  display: inline;
+}
+
+.shippingAddress .stateAndZipContainer .form-group {
+  display: flex;
+  flex-flow: column;
+}
+.shippingAddress .stateAndZipContainer,
+.personalInfo .stateAndZipContainer {
+  margin-bottom: 1em;
+}
+
+.shippingAddress .stateAndZipContainer {
+  display: flex;
+}
+
+.stateAndZipContainer .zipCode {
+  margin: 0 20px;
+}
+
+#PersonalInfo-zipCode.no-same-line-sibling {
+  margin: unset;
+}
+
+.loginCredentials {
+  margin-bottom: 26px;
+}
+
+.isDependentCantEdit {
+  color: #d2d2d2;
+}

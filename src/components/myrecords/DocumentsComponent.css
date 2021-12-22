@@ -1,0 +1,22 @@
+.myRecordsDocumentsDetail {
+    color: #535050;
+    font-size: 14px;
+}
+
+.myRecordsDocumentsDetail > * {
+    margin-bottom: 15px;
+}
+
+.myRecordsDocumentsDetailHeader {
+    font-size: 16px;
+}
+
+.myRecordsDocumentsDetailHeader,
+.myRecordsDocumentsDetailDateHeader {
+    font-weight: 600;
+}
+
+.myRecordsDocumentsDetail img {
+    width: initial;
+    cursor: pointer;
+}

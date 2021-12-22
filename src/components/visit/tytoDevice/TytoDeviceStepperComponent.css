@@ -1,0 +1,42 @@
+/*!
+ * American Well Consumer Web SDK Sample App
+ *
+ * Copyright © 2020 American Well.
+ * All rights reserved.
+ *
+ * It is illegal to use, reproduce or distribute
+ * any part of this Intellectual Property without
+ * prior written authorization from American Well.
+ */
+ 
+ .visitHeaderTitle {
+  color: #535050;
+}
+
+.tytoDeviceIntegration p {
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.tytoDeviceIntegration {
+  padding-bottom: 95px;
+  width: 450px;
+  color: #535050;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.tytoDeviceIntegration input::-webkit-input-placeholder {
+  color: #b3b3b3;
+}
+
+.tytoDeviceIntegration input {
+  font-size: 18px;
+  height: 50px;
+}
+
+.tytoActionButtons {
+  margin-top: 60px;
+}

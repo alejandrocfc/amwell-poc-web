@@ -1,0 +1,16 @@
+.cartModeButton {
+  background: url('images/cartmode-icon.png');
+  background-size: contain;
+  border: none;
+  width: 18px;
+  height: 13px;
+}
+
+.cartModeButton:focus {
+  outline: none;
+}
+
+.cartModeButton:hover {
+  opacity: .5;
+  cursor: pointer;
+}

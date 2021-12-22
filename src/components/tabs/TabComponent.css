@@ -1,0 +1,15 @@
+.tab {
+  width: 212px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 50px;
+  height: 103%;
+}
+
+.tab .selected {
+  border: 1px solid #d6d6d6;
+  border-top: 3px solid #00bcd4;
+  border-bottom: 3px solid white;
+  height: 101%;
+}

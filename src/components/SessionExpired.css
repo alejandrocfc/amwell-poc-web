@@ -1,0 +1,41 @@
+#sessionExpired {
+  padding-top: 5%;
+  height: 100vh;
+  background: url('images/lobby.png') center/cover no-repeat;
+}
+
+
+#sessionExpired .sessionExpiredBody {
+  width: 350px;
+  margin: 0 auto;
+  background-color: #fff;
+  max-width: 560px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#sessionExpired .sessionExpiredHeader {
+  background-color: #e7e7e7;
+  height: 60px;
+}
+
+#sessionExpired .sessionExpiredMessage {
+  margin-top: 60px;
+  font-size: 24px;
+}
+
+#sessionExpired button {
+  background-color: #efa825;
+  font-size: 20px;
+  font-weight: 800;
+  color: #FFF;
+  border: 0;
+  width: 263px;
+  height: 49px;
+  line-height: 22px;
+  letter-spacing: 0.6px;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+

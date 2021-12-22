@@ -1,0 +1,68 @@
+.genericModal {
+  min-width: 400px;
+  max-width: 1000px;
+  width: fit-content;
+}
+
+.genericModal .modal-content {
+  border: none;
+  border-radius: 0;
+}
+
+.genericModal .genericModalClose {
+  background-size: contain !important;
+  background: url('./images/close-modal.png') no-repeat center;
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  cursor: pointer;
+  right: 40px;
+  top: 22px;
+}
+
+.genericModal .genericModalHeader {
+  height: 90px;
+  padding: 32px 40px;
+  background-color: #00bcd4;
+  font-size: 20px;
+  font-weight: 800;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.genericModal .genericModalMessage {
+  margin: 32px 40px;
+  font-size: 18px;
+  color: #535050;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.genericModalButtons {
+  padding: 0 32px 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.genericModal button {
+  background-color: #efa825;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  width: 100px;
+  height: 50px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.genericModal button:hover {
+  background-color: #f5ca79;
+  color: white;
+}
+
+.genericModal button:focus {
+  outline: none;
+}

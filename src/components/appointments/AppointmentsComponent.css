@@ -1,0 +1,171 @@
+.appointmentsHeader {
+    background: url('../images/banners/family-at-computer.png') no-repeat;
+    background-size: cover;
+    height: 326px;
+}
+
+.appointmentsBody {
+    padding: 30px;
+}
+
+.appointmentsGrid {
+    background-color: rgb(255,255,255);
+    padding: 25px 40px 40px 40px;
+    width: 965px;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+.appointmentsTitle {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    color: #535050;
+}
+
+.appointmentsList {
+    margin-top: 40px;
+}
+
+.appointmentsRow {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #d6d6d6;
+    display: flex;
+}
+
+.appointmentsModalityIcon img {
+    width: 22px;
+    height: 22px;
+}
+
+.appointmentTimeAndType {
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointmentsDateTime {
+    color: #535050;
+    display: flex;
+    justify-content: space-between;
+}
+
+.appointmentSeperator {
+    margin: 0 5px;
+}
+
+.appointmentsDate {
+    width: 90px;
+}
+
+.appointmentsTime {
+    width: 135px;
+}
+
+.appointmentsDate, .appointmentsTime {
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.appointmentSeparator {
+    color: #d2d2d2;
+}
+
+div.appointmentsDetail {
+  width: 450px;
+}
+
+.appointmentsList .appointmentsDetail {
+    color: #535050;
+    font-size: 18px;
+    margin: 0 12px;
+}
+
+.appointmentsActions {
+    color: #d2d2d2;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+.rtl .appointmentsActions {
+    margin-right: auto;
+    margin-left: unset;
+}
+
+.appointmentsNone {
+    text-align: center;
+    color: #535050;
+    font-size: 18px;
+}
+
+.appointmentsStartVisitButton {
+    width: 139px;
+    height: 29px;
+    border-radius: 5px;
+    background-color: #efa825;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.appointmentsStartVisitButton:hover {
+    background-color: #efa825;
+    color: #ffffff;
+}
+
+.appointmentsCancelBody {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.appointmentsCancelBody div:first-child {
+    font-weight: 600;
+}
+
+.appointmentsCancelBody .appointmentsDateTime,
+.appointmentsCancelBody .appointmentsDetail {
+    width: 395px;
+    display: block;
+}
+
+.appointmentsCancelBody .appointmentsDateTime {
+    margin-top: 35px;
+}
+
+.appointmentsCancelButton {
+    color: #ffffff;
+    font-weight: 800;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #efa825;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    cursor: pointer;
+}
+
+.appointmentsCancelButton:hover {
+    background-color: #efa825;
+    color: #ffffff;
+}
+
+.appointmentHeader {
+    background: linear-gradient(to bottom,  rgb(231,231,231) 0%,rgb(231,231,231) 50%,#fff 50%,#fff);
+    height: 226px;
+    padding-top: 20px;
+    width: 965px;
+    text-align: center;
+    margin: 20px auto -25px;
+}
+
+.appointmentsSection {
+    background-color: rgb(0,188,212);
+    font-weight: 800;
+    padding: 5px 10px 5px 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #fff;
+}

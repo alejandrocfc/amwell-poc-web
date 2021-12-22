@@ -1,0 +1,76 @@
+.testMyComputerWizard {
+  display: flex;
+}
+
+.testMyComputerSideBar {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 96px;
+  color: #313336;
+  font-size: 12px;
+}
+
+.testMyComputerSideBar > div {
+  height: 90px;
+  background: #ffffff;
+  padding: 12px;
+}
+
+.testMyComputerWizardContainer {
+  overflow: hidden;
+  width: 100%;
+  height: 90vh;
+}
+
+.testMyComputerWizardContainer .awcore-tmc-step {
+  color: #556575;
+}
+
+.testMyComputerWizardContainer button.awcore-audio-stopped,
+.testMyComputerWizardContainer button {
+  background-color: #efa825;
+}
+
+.awcore-tmc-step-test h3,
+.awcore-drawer-single-button-container,
+.awcore-drawer-multi-button-container {
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.awcore-drawer-single-button-container button,
+.awcore-drawer-multi-button-container button {
+  text-transform: uppercase;
+  font-weight: 800;
+  height: 50px;
+  font-size: 24px;
+}
+
+.awcore-drawer-content-image {
+  background: url('./images/icon-test-computer-getstarted.svg') no-repeat center center;
+}
+
+.testMyComputerExitButton {
+  width: 138px;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #fd6b6b;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  right: 21px;
+  top: -58px;
+  z-index: 10;
+}
+
+.rtl .testMyComputerExitButton {
+  left: 21px;
+  right: unset;
+}

@@ -1,0 +1,30 @@
+.scheduleAppointmentContainer {
+    padding: 40px 83px;
+}
+
+.providerAvailabilityDate {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 1em;
+}
+
+.providerAvailabilityDetailsModal {
+    width: 965px;
+    max-width: 100%;
+}
+
+.providerAvailabilityDetailsModal .modal-content {
+    border-radius: 0;
+}
+
+.providerAvailabilityDetailsModal .close {
+    background-image: url('../images/iconClose.png');
+    background-size: cover;
+    height: 44px;
+    width: 44px;
+    cursor: pointer;
+    opacity: 1;
+    position: fixed;
+    top: 22px;
+    right: 22px;
+}

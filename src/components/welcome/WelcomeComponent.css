@@ -1,0 +1,46 @@
+#welcome {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background: url('../images/lobby.png') center/cover no-repeat;
+  color: #fff;
+}
+
+.overlay {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background:rgba(0,0,0,0.4)
+}
+
+.welcomeBody {
+  padding-top: 10%;
+  max-width: 965px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.welcomeTitle {
+  font-size: 48px;
+  font-weight: 800;
+  letter-spacing: -0.1px;
+  margin-bottom: 35px;
+}
+
+.welcomeMessage {
+  font-size: 24px;
+  line-height: 1.25;
+  margin-bottom: 60px;
+}
+
+#welcomeBody button {
+  width: 363px;
+  height: 50px;
+  background-color: #efa825;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,107 @@
+.composeMessageComponent {
+    padding: 20px 40px;
+    color: #535050;
+}
+
+.composeMessageComponent .messageTypeTitle {
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Open Sans bold', sans-serif;
+    margin-bottom: 20px;
+}
+
+.composeMessageComponent input,
+.composeMessageComponent select.form-control {
+    border-radius: 0;
+    border: 1px solid #d6d6d6;
+    height: 50px !important;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 15px;
+    margin: 0 0 25px 0;
+}
+
+.composeMessageComponent input:disabled,
+.composeMessageComponent select.form-control:disabled {
+    background-color: #f8f8f8;
+}
+
+.composeMessageComponent input::placeholder{
+    color: #b3b3b3;
+}
+
+.composeMessageComponent .disclaimerInfo {
+    font-size: 11px;
+    margin: 25px 0;
+}
+
+.composeMessageBody {
+    border: 1px solid #d6d6d6;
+    width: 100%;
+    min-height: 216px;
+    height: max-content;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.composeMessageBody:focus {
+    outline: none;
+}
+
+.healthSummaryCheckbox {
+    margin: 0;
+    padding: 0;
+}
+
+.healthSummaryCheckbox .form-check-label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 0;
+    width: max-content;
+}
+
+.healthSummaryCheckbox input {
+    width: 24px;
+    height: 24px !important;
+    padding: 0;
+    margin: 0 10px 0 0;
+}
+
+.rtl .healthSummaryCheckbox input {
+    margin-left: 10px;
+}
+
+.composeMessageComponent .attachmentTitle {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.composeMessageComponent .attachmentTitle span {
+    font-size: 12px;
+    color: #00bcd4;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.composeMessageComponent .errorInput {
+    border-color: red !important;
+}
+
+.composeMessageComponent .error {
+    margin: -25px 0 0;
+    height: 25px;
+    font-size: 14px;
+}
+
+.composeMessageComponent .attachmentTitle .error {
+    margin: 0 0 -25px 0;
+    font-size: 14px;
+}
+
+.composeMessageComponent .messageEditableBody {
+    border: 1px solid #d6d6d6;
+    padding: 20px;
+    min-height: 220px;
+}

@@ -1,0 +1,65 @@
+.providerCard {
+    padding-top: 40px;
+    display: inline-block;
+    width: 269px;
+    max-width: 269px;
+    height: 357px;
+    max-height: 357px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    margin: 17px 20px;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(83,80,80);
+}
+
+.providerCard.available, .providerCard.waiting, .providerCard.offline {
+    cursor: pointer;
+}
+
+.providerCard .providerFullName {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.providerCard .providerRating {
+    color: #F5BA48;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.providerCard .providerAvailability {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.providerCard .providerSpecialty {
+    font-size: 16px;
+}
+
+.providerCard .providerLogo img {
+    width: 198px;
+    height: 198px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.providerCard .providerLogo.offline img {
+    border: 8px solid #d8d8d8;
+    border-radius: 198px;
+}
+
+.providerCard .providerLogo.available img {
+    border: 8px solid #30a039;
+    border-radius: 198px;
+}
+
+.providerCard .providerLogo.waiting img {
+    border: 8px solid #efcc48;
+    border-radius: 198px;
+}

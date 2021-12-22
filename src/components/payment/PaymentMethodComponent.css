@@ -1,0 +1,123 @@
+.paymentMethodComponent {
+    color: #535050;
+    width: 450px;
+    margin: auto;
+}
+
+.paymentMethodComponent .title {
+    margin-top: 40px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-align: unset;
+}
+
+.paymentMethodComponent .useHomeAddressCheckbox {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.paymentMethodComponent .useHomeAddressCheckbox .form-check,
+.paymentMethodComponent .useHomeAddressCheckbox .form-check-label {
+    margin: 0;
+    padding: 0;
+    max-height: max-content;
+}
+
+.paymentMethodComponent .useHomeAddressCheckbox input {
+    margin: 5px 0 0 0;
+    width: 24px;
+    max-height: 24px;
+}
+
+.paymentMethodComponent .useHomeAddressCheckbox span {
+    margin: 0 15px;
+}
+
+
+.paymentCardIcons {
+    background: url('./images/iconCreditCards.png');
+    background-size: cover;
+    width: 190px;
+    height: 24px;
+    margin-bottom: 20px;
+}
+
+.paymentMethodComponent .form-group {
+    margin: 0;
+}
+
+.paymentMethodComponent input,
+.paymentMethodComponent select {
+    margin-top: 25px;
+    margin-bottom: 0;
+    height: 50px !important;
+    background-color: #fff;
+    border: 1px solid #d6d6d6;
+    border-radius: 0;
+    font-size: 18px;
+}
+
+.paymentMethodComponent .error {
+    margin: 0;
+}
+
+.paymentMethodComponent .inline-inputs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.paymentMethodComponent .inline-inputs .cardNumber {
+    max-width: 350px;
+    flex: 9;
+}
+
+.paymentMethodComponent .inline-inputs .securityCode {
+    max-width: 80px;
+    flex: 2;
+}
+
+.paymentMethodComponent .inline-inputs .month,
+.paymentMethodComponent .inline-inputs .state {
+    max-width: 285px;
+    flex: 5;
+}
+
+.paymentMethodComponent .inline-inputs .zip,
+.paymentMethodComponent .inline-inputs .year {
+    max-width: 145px;
+    flex: 2;
+}
+
+.paymentMethodComponent .buttons {
+    margin-top: 70px;
+    text-align: center;
+    display: block;
+    padding-bottom: 52px;
+}
+
+.paymentMethodComponent .buttons button {
+    background-color: #efa825;
+    font-size: 22px;
+    font-weight: 800;
+    color: #FFF;
+    border: 0;
+    width: 363px;
+    height: 52px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.paymentMethodComponent .buttons button:hover {
+    background-color: #F5CA79;
+    color: white;
+}
+
+.paymentMethodComponent .buttons button:focus {
+    outline: none;
+}

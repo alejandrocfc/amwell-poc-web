@@ -1,0 +1,13 @@
+.providerDetailsRow,
+.providerRow {
+    margin: 0 auto;
+}
+
+.providerRow {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.providerGridContainer {
+    padding: 0;
+}

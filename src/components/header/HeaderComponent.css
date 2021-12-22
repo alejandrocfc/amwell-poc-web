@@ -1,0 +1,351 @@
+#header {
+    position: relative;
+    background-color: rgb(0,188,212);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.25);
+    z-index: 2;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.headerLogoContainer {
+    display: flex;
+    flex-grow: 1;
+}
+
+@media (max-width: 750px) {
+    .headerLogo {
+        display: none;
+    }
+}
+.headerLogo {
+    background: url('./images/my-care-logo.svg') no-repeat center/cover;
+    width: 190px;
+    height: 60px;
+    margin: 0 55px;
+    cursor: pointer;
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.headerContents {
+    padding: 12px 40px 18px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 965px;
+    flex-grow: 1;
+}
+
+.navbar-toggler,
+.depbar-toggler {
+    cursor: pointer;
+}
+
+.languageBar {
+    text-align: right;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.languageBar a {
+    color: #FFF;
+}
+
+.languageBar a:visited {
+    color: #FFF;
+}
+
+.languageBar a:hover {
+    color: #9ee5ee;
+}
+
+.activeLanguage {
+    color: #9ee5ee;
+    font-weight: 700;
+}
+
+.languageSeparator {
+    color: #80dde9;
+    margin: 0 9px;
+}
+
+.inactiveLanguage {
+    color: #fff;
+}
+
+.welcomeTxt {
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1.23px;
+    font-weight: 800;
+    display: flex;
+    white-space: nowrap;
+}
+
+button.navbar-toggler {
+  background: url("./images/hamburgerMenu.png") center no-repeat;
+  width: 41px;
+  height: 27px;
+  border: none;
+  outline: none;
+}
+
+button.navbar-toggler.open {
+    background: url("./images/hamburgerMenuOpen.png") center no-repeat;
+}
+
+button.depbar-toggler {
+    background: url("./images/chevron-open.png") center no-repeat;
+    width: 41px;
+    height: 20px;
+    border: none;
+    outline: none;
+}
+
+button.depbar-toggler.open {
+    background: url("./images/chevron-close.png") center no-repeat;
+}
+
+.welcomeTxt a {
+    line-height: 1.75;
+    min-height: 54px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+.welcomeTxt .Menus-wrapper {
+    text-transform: none;
+    font-weight: 800;
+}
+
+li.Menu:active {
+    background-color: #efa825;
+}
+
+li.Menu:hover {
+    background-color: #efa825;
+}
+
+.welcomeTxt .Menus-wrapper li.Menu .Menu-link {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.welcomeTxt .Menus-wrapper ul.Menus a.Menu-link {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    white-space: pre-wrap;
+}
+
+li.Menu:active .Menu-link {
+    color: #fff !important;
+}
+
+li.Menu:hover .Menu-link {
+    color: #fff !important;
+}
+
+a.Menu-link:hover {
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #efa825;
+}
+
+a.Menu-link:active {
+    text-decoration: none;
+    color: #fff !important;
+    background-color: #efa825;
+}
+
+a.Menu-link:visited {
+    color: #777777;
+}
+
+.Menus-wrapper ul.Menus {
+    font-weight: 800 !important;
+    letter-spacing: 3px;
+    width: 280px !important;
+    line-height: 45px;
+}
+
+.Menus-wrapper ul.Menus a.Menu-link {
+    padding-left: 2rem !important;
+}
+
+.Menus-wrapper ul.Menus ul.Menus {
+    letter-spacing: 1px;
+    width: 210px !important;
+}
+
+ul.Menus li.Menu ul.Menus li.Menu a.Menu-link {
+    font-weight: 800 !important;
+}
+
+ul.Menus li.Menu ul.Menus li.Menu a.Menu-link:hover {
+    color: #a16600 !important;
+}
+
+ul.Menus li.Menu ul.Menus li.Menu a.Menu-link:active {
+    color: #a16600 !important;
+}
+
+.rtl .languageBar {
+    text-align: left;
+}
+
+.rtl .welcomeTxt {
+    text-align: left;
+}
+
+.rtl li.Menu {
+    text-align: right;
+}
+
+.rtl a.Menu-link {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.rtl .Menu:hover > ul.Menus {
+    left: -180px;
+}
+
+.rtl li.Menu img {
+    transform: scaleX(-1);
+    right: 236px !important;
+}
+div.headerUserInfo {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    height: 25px;
+}
+.notificationWrapperDiv {
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    font-family: 'Open Sans', serif;
+    font-size: 18px;
+    color: #535050;
+    margin: 0 18px;
+    align-items: baseline;
+    cursor: pointer;
+}
+.notificationWrapperDiv:focus {
+  background-color: red;
+}
+.notificationBox {
+    position: absolute;
+    right: 52px;
+    top: 30px;
+    width: 400px;
+    padding: 32px 40px 40px 40px;
+    background-color: #fff;
+    border: unset;
+    z-index: 300;
+}
+.notificationBoxTitle {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 6px;
+}
+.emptyNotificationBox {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+div.notificationItems {
+    display: flex;
+    flex-direction: column;
+}
+.headerNotificationItem {
+    padding: 23px 0;
+    border-top: 1px solid #e2e2e2;
+}
+
+div.headerNotificationItem:first-of-type {
+    border: unset;
+}
+
+.headerNotificationItem span {
+    display: block;
+}
+
+.notificationClose {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rtl .notificationClose {
+    top: 10px;
+    left: 10px;
+}
+.notificationClose:hover {
+    cursor: pointer;
+    background-color: #eceaea;
+}
+.headerNotificationItem span.title {
+    font-weight: 600;
+}
+.headerNotificationItem span.body {
+    font-size: 16px;
+}
+.headerNotificationItem span.linkText {
+    color: #00bcd4;
+}
+.headerNotificationItem span.linkText:hover {
+    cursor: pointer;
+}
+.notificationChevron {
+    width: 25px;
+    height: 25px;
+    background: url('./images/arrow-down.png') no-repeat center;
+    transform: rotate(-90deg);
+    margin-top: 45px;
+}
+.notificationBell {
+    width: 25px;
+    height: 25px;
+}
+.bellNoBlot {
+    background: url('./images/icon-no-notification.svg') no-repeat center;
+}
+.bellWithBlot {
+    background: url('./images/icon-notification.svg') no-repeat center;
+}
+
+.cartModeHeaderTitle {
+    font-size: 22px;
+    font-family: OpenSans, sans-serif;
+    font-weight: 800;
+    color: #fff;
+    margin-top: 30px;
+}
+
+#header.simpleHeader {
+  height: 72px;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 0 24px;
+}
+
+.simpleHeader img {
+  cursor: pointer;
+}

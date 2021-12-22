@@ -1,17 +1,21 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import { BrowserRouter, Route } from 'react-router-dom';
+import 'font-awesome/css/font-awesome.css';
+import 'awsdk/lib/awsdk.css';
+import { applyPolyfills, defineCustomElements } from 'amwell-visit-console/loader';
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+applyPolyfills().then(() => {
+    defineCustomElements(window)
+        .then(() => {
+            ReactDOM.render(
+                <BrowserRouter>
+                    <Route component={App} />
+                </BrowserRouter>,
+                document.getElementById('root'));
+        });
+});

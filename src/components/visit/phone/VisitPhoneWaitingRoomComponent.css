@@ -1,0 +1,59 @@
+.visitPhoneWaitingRoomComponent {
+    font-size: 20px;
+    color: #535050;
+    width: 900px;
+}
+
+.visitPhoneWaitingSpinnerLogo {
+    height: 250px;
+    margin-top: 30px;
+}
+
+.visitPhoneWaitingSpinnerLogo > img {
+    position: absolute;
+    right: 50%;
+}
+
+.visitPhoneWaitingSpinnerLogo img:first-child {
+    width: 243px;
+    height: 243px;
+    animation: spin 2s linear infinite;
+    margin-right: -122px;
+}
+
+.visitPhoneWaitingSpinnerLogo img:last-child {
+    width: 198px;
+    height: 198px;
+    border-radius: 198px;
+    margin-right: -99px;
+    margin-top: 23px;
+}
+
+.visitPhoneWaitingMessage {
+    text-align: center;
+    padding: 0 250px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.visitPhoneWaitingCancelSection {
+    padding-bottom: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+}
+
+.visitPhoneWaitingCancelSection > * {
+    text-align: center;
+    margin-bottom: 25px
+}
+
+.visitPhoneWaitingCancelSection div:first-child {
+    font-size: 20px;
+}
+
+.visitPhoneWaitingMessage span,
+.visitPhoneWaitingCancelSection span {
+    font-weight: bold;
+}

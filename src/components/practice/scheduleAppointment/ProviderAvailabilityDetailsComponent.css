@@ -1,0 +1,31 @@
+.providerAvailabilityDetailsComponent {
+    min-height: 450px;
+}
+
+.providerAvailabilityDetailsComponent .banner {
+    height: 90px;
+    background-color: #00bcd4;
+}
+
+.providerAvailabilityDetailsComponent .details {
+    margin-left: 320px;
+    padding: 32px;
+}
+
+.providerAvailabilityDetailsComponent .providerGreeting {
+    font-size: 16px;
+    margin: 0 0 26px 0;
+    padding: 0;
+}
+
+.providerAvailabilityDetailsComponent .providerNameAndPhotoComponent {
+    position: fixed;
+    top: 42px;
+    left: 56px;
+}
+
+.rtl .providerAvailabilityDetailsComponent {
+    text-align: right;
+}
+
+

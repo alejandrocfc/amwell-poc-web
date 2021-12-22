@@ -1,0 +1,53 @@
+/*!
+ * American Well Consumer Web SDK Sample App
+ *
+ * Copyright © 2020 American Well.
+ * All rights reserved.
+ *
+ * It is illegal to use, reproduce or distribute
+ * any part of this Intellectual Property without
+ * prior written authorization from American Well.
+ */
+
+.tytoDeviceActionModal {
+  width: 475px;
+}
+
+.tytoDeviceActionModal .genericModalMessage {
+  padding: 20px 40px 0 40px;
+}
+
+.tytoDeviceActionModal .tryAgain p {
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 50px;
+  line-height: normal;
+}
+
+.tytoDeviceActionModal .qrCodeExpired p {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.tytoDeviceActionModal .genericModalButtons,
+.tytoDeviceActionModal .genericModalButtons button {
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.tytoDeviceActionModal .genericModalButtons {
+  padding: 0 40px 40px;
+  flex-direction: column;
+
+}
+
+.tytoDeviceActionModal .genericModalButtons .link-like {
+  margin: 0;
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 18px;
+}

@@ -1,0 +1,145 @@
+.appointmentDetailsComponent {
+    background: #fff;
+    width: 965px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.appointmentDetailsIcon {
+    background-size: contain;
+    height: 171px;
+    width: 171px;
+    margin: 0 auto;
+    padding-top: 100px;
+    background: transparent url('./images/icon-page-header-appt.png') no-repeat bottom;
+}
+
+.appointmentDetailsIcon.late {
+    background: url('./images/icon-page-header-appt-late.png') no-repeat bottom;
+}
+
+.appointmentDetailsTitle {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    color: #535050;
+}
+
+.appointmentDetailsWelcome {
+    text-align: center;
+    color: #535050;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 60px;
+}
+
+.appointmentDetailsProvider img {
+    width: 198px;
+    height: 198px;
+    object-fit: cover;
+    object-position: top;
+    border: 12px solid #00bcd4;
+    border-radius: 198px;
+}
+
+.appointmentDetailsOn {
+    text-align: center;
+    color: #535050;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.appointmentDetailsWhen, .appointmentDetailsWho {
+    text-align: center;
+    color: #535050;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.appointmentDetailsInstruction {
+    text-align: center;
+    color: #535050;
+    font-size: 16px;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 36px;
+}
+
+.appointmentDetailsStartVisitButton {
+    width: 230px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #efa825;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.appointmentDetailsStartVisitButton:hover {
+    background-color: #efa825;
+    color: #ffffff;
+}
+
+.appointmentDetailsStartVisitButton.disabled {
+    background-color: #efa825;
+}
+
+.appointmentDetailsStartVisitButton.disabled:hover {
+    background-color: #efa825;
+    color: #ffffff;
+}
+
+.appointmentDetailsCancel {
+    margin-top: 10px;
+}
+
+.appointmentDetailsTestComputer {
+    text-align: center;
+    color: #535050;
+    font-size: 16px;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+}
+
+.appointmentDetailsAssistance {
+    text-align: center;
+    color: #535050;
+    font-size: 16px;
+    width: 552px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.appointmentDetailsButtonArea {
+    text-align: center;
+    color: #535050;
+    font-size: 16px;
+    width: 552px;
+    margin: 0 auto;
+}
+
+.appointmentDetailsPhoneSection {
+    font-size: 18px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.appointmentDetailsPhoneSection span {
+    font-weight: bold;
+}
+
+.appointmentDetailsPhoneSection a {
+    font-size: 16px;
+    padding: 0 10px;
+}

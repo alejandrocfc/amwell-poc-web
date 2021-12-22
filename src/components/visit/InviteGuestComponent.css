@@ -1,0 +1,129 @@
+#visitIntakeGuestsTitle {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.inviteGuestPrompt {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.inviteGuestPrompt div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.moreInfoIcon {
+    background: url('./images/icon-moreinfo.png') no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.moreInfoIcon:hover {
+    opacity: .5;
+}
+
+.inviteGuestMoreInfo .header {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: left;
+    color: #ffffff;
+}
+
+.inviteGuestMoreInfo .close {
+    background-image: url('./images/iconClose.png');
+    background-size: cover;
+    height: 44px;
+    width: 44px;
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    right: 26px;
+}
+
+.rtl .inviteGuestMoreInfo .close {
+    left: 26px;
+    right: unset;
+}
+
+.inviteGuestMoreInfo .description {
+    font-size: 18px;
+}
+
+.removeInviteIcon {
+    background: url('./images/remove-invited-guest.png') no-repeat;
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.visitIntakeGuestsTitle {
+    margin-top: 60px;
+}
+
+.visitIntakeInviteGuestComponent {
+    font-size: 18px;
+}
+
+.existingInvite {
+    height: 40px;
+    border-bottom: 1px solid #d6d6d6;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.existingInviteList {
+    margin-bottom: 25px;
+}
+
+.inviteGuestInputContainer {
+    display: flex;
+    align-items:  baseline;
+}
+
+.inviteGuestInputContainer .form-group {
+    margin: 0;
+    flex: 1;
+}
+
+.inviteGuestInputContainer .emailInput {
+    height: 50px;
+    border-radius: 0;
+    margin: 0;
+}
+
+.inviteGuestInputContainer .error {
+    margin: 0;
+    padding: 0;
+}
+
+.inviteGuestInputContainer .visitButton {
+    background-color: #efa825;
+    color: #FFF;
+    border: 0;
+    height: 52px;
+    cursor: pointer;
+    width: 90px;
+    margin-left: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.4px;
+}
+
+.inviteGuestMaxGuestsText {
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  color: #535050;
+  line-height: normal;
+}

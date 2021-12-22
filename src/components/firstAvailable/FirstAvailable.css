@@ -1,0 +1,123 @@
+.firstAvailable {
+    margin: 20px auto 0;
+    width: 965px;
+    height: 867px;
+    background-color: #fff;
+    color: #535050;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.firstAvailableSearchIcon {
+    background-image: url('./images/icon-page-header-find-provider.png');
+    height: 171px;
+    width: 171px;
+    margin: auto;
+}
+
+.firstAvailableHeader {
+    background: linear-gradient(to bottom,  rgb(231,231,231) 0%,rgb(231,231,231) 50%,#fff 50%,#fff);
+    height: 226px;
+    padding-top: 20px;
+}
+
+.firstAvailableHeaderTitle {
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -20px;
+    letter-spacing: 1.3px;
+}
+
+.firstAvailableSearchBody {
+    font-size: 20px;
+    text-align: center;
+}
+
+.cancelFirstAvailable {
+    color: #00bcd4;
+    margin-top: 96px;
+}
+
+.searchExplanation {
+    margin-bottom: 50px;
+}
+
+.startFirstAvailable {
+    width: 880px;
+    height: 209px;
+    margin: 20px auto 0;
+    margin-bottom: 45px !important;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.13);
+    padding: 7px;
+    display: flex;
+    color: #535050;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.firstAvailableText {
+    margin: 0 20px;
+}
+
+.firstAvailablePitch {
+    font-size: 30px;
+}
+
+.firstAvailableDesc {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.startFirstAvailable .cartModeButton {
+    align-self: end;
+}
+
+
+.searchExhaustedOKButton:hover,
+.startFirstAvailableSearchButton:hover {
+    background-color: #efa825;
+    color: #ffffff;
+}
+
+.searchExhaustedOKButton,
+.startFirstAvailableSearchButton {
+    height: 58px;
+    border-radius: 5px;
+    background-color: #efa825;
+    font-size: 24px;
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.searchExhaustedOKButton {
+    margin-top: 35px;
+    width: 120px;
+}
+
+.providerExhaustedLogo {
+    width: 242px;
+    height: 242px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.providerExhaustedLogo img {
+    width: 198px;
+    height: 198px;
+    object-fit: cover;
+    object-position: top;
+    border: 0px solid #56ab2f;
+    border-radius: 198px;
+    margin-top: 22px;
+}

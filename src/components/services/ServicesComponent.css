@@ -1,0 +1,99 @@
+.servicesHeader {
+    background: url('../images/banners/providers-in-hospital.png') no-repeat;
+    background-size: cover;
+    height: 326px;
+}
+
+.servicesBody {
+    padding: 30px;
+}
+
+.servicesGrid {
+    background-color: rgb(255,255,255);
+    padding: 25px 40px 40px 40px;
+    width: 965px;
+    margin: 0 auto;
+}
+
+.servicesTitle {
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    color: #535050;
+    margin: 0 10px;
+}
+
+.serviceCell {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 280px;
+    max-width: 280px;
+    height: 160px;
+    max-height: 160px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);
+    margin: 9px 11px;
+    font-size: 28px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.serviceCell:hover {
+    background: url('./images/hover.png') no-repeat;
+    background-size: cover;
+}
+
+.serviceCell:hover .practiceLogo {
+    display: none;
+}
+
+.practiceLogo img {
+    width: 219px;
+    height: 83px;
+}
+
+.practiceDetails .practiceLogo img {
+    width: 219px;
+    height: 83px;
+}
+
+.addAServiceKeyLink {
+    font-size: 20px;
+    font-weight: 800;
+    color: #00bcd4;
+    float: right;
+    letter-spacing: 1px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.rtl .addAServiceKeyLink {
+    float: left;
+}
+
+.addServiceKeyModal .error {
+    margin: 10px 0;
+}
+
+.addServiceKeyModal input {
+    font-size: 18px;
+    margin-top: 1em;
+    border-radius: 0;
+    height: 50px;
+}
+
+.addServiceKeyModal {
+    max-width: 475px;
+}
+
+.addServiceKeyModal .genericModalMessage {
+    overflow-y: unset;
+}
+
+.genericModal.rejoinVisitClass {
+  width: 475px;
+}
+
+.genericModal.rejoinVisitClass .genericModalButtons {
+  padding: 0 75px 50px;
+}

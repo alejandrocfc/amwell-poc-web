@@ -1,0 +1,123 @@
+.myMessagesContent {
+    height: 75vh;
+    min-height: 0;
+    padding: 0 40px;
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
+
+.myMessagesListAndDetail {
+    border-top: solid 1px #d6d6d6;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.myMessagesListAndDetail .noMessages {
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.messageList {
+    width: 340px;
+    overflow-y: auto;
+    border-right: solid 1px #d6d6d6;
+    flex-shrink: 0;
+}
+
+.rtl .messageList {
+    border-left: 1px solid #d6d6d6;
+}
+
+.messageDetail {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.messageList::-webkit-scrollbar,
+.messageDetail::-webkit-scrollbar {
+    width: 15px;
+}
+
+.messageList::-webkit-scrollbar-thumb,
+.messageDetail::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}
+
+.loadingSection {
+    margin: 50px;
+    text-align: center;
+}
+
+.loadingSection img {
+    width: 43px;
+    height: 43px;
+    animation: spin 1s linear infinite;
+}
+
+.messageActions {
+    height: 72px;
+    padding: 10px;
+    display: flex;
+}
+
+.messageActions .commonMessageActions {
+    margin-right: 260px;
+}
+
+.rtl .messageActions .commonMessageActions {
+    margin-right: unset;
+    margin-left: 335px;
+}
+
+/*
+    MessageContent component
+*/
+
+.composeMessageActions,
+.detailedMessageActions,
+.commonMessageActions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.composeMessageActions > *:last-child,
+.detailedMessageActions > *:last-child,
+.commonMessageActions > *:last-child {
+    margin-left: 18px;
+}
+
+.rtl .composeMessageActions > *:last-child,
+.rtl .detailedMessageActions > *:last-child {
+    margin-left: unset;
+    margin-right: 18px;
+}
+
+.composeMessageActions > *:first-child,
+.detailedMessageActions > *:first-child,
+.commonMessageActions > *:first-child {
+    margin-right: 18px;
+}
+
+.rtl .composeMessageActions > *:first-child,
+.rtl .detailedMessageActions > *:first-child,
+.rtl .commonMessageActions > *:first-child {
+    margin-right: unset;
+    margin-left: 18px;
+}
+
+.composeMessageActions > *:not(:first-child):not(:last-child),
+.detailedMessageActions > *:not(:first-child):not(:last-child),
+.commonMessageActions > *:not(:first-child):not(:last-child) {
+    margin: 0 18px;
+}
+
+.rtl .commonMessageActions > *:last-child {
+    margin-left: unset;
+    margin-right: 0px;
+}

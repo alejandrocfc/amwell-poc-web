@@ -1,0 +1,97 @@
+/* HEADER WITH BAR */
+
+.VisitSummaryHeaderWithBar {
+  font-size: 14px;
+  font-family: 'OpenSans-Bold', sans-serif;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.VisitSummaryHeaderWithBar hr {
+  color: #d6d6d6;
+  padding: 0;
+  margin: 5px 0;
+}
+
+/* TITLE AND TEXT */
+
+.VisitSummaryTitleAndText {
+  margin-bottom: 10px;
+}
+
+.VisitSummaryTitleAndText.inline [class*="text"] {
+  padding: 0 5px;
+}
+
+.VisitSummaryTitleAndText .noResponse {
+  font-family: 'OpenSans-Italic', sans-serif;
+  font-style: italic;
+  color: #a9a9a9;
+}
+
+.VisitSummaryTitleAndText.inline {
+  display: flex;
+}
+
+/* PHARMACY */
+
+.VisitSummaryPrescriptionsAndPharmacy .willBeSent {
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.VisitSummaryPrescriptionsAndPharmacy [class*="bolderText"] {
+  font-size: 16px;
+}
+
+/* DIAGNOSES AND PROCEDURES*/
+
+.visitSummaryDiagnosesAndProcedures table {
+  width: 100%;
+}
+
+.visitSummaryDiagnosesAndProcedures thead {
+  font-size: 14px;
+  background-color: #f3f3f3;
+  height: 30px;
+  font-family: 'OpenSans-Bold', sans-serif;
+  font-weight: bold;
+}
+
+.visitSummaryDiagnosesAndProcedures thead tr {
+  border: none;
+  height: 30px;
+}
+
+.visitSummaryDiagnosesAndProcedures tr {
+  height: 42px;
+  border-bottom: 2px solid #f3f3f3;
+}
+
+.visitSummaryDiagnosesAndProcedures th:first-child {
+  width: 140px;
+}
+
+.visitSummaryDiagnosesAndProcedures th,td {
+  padding: 0 10px;
+}
+
+/* TRANSCRIPT */
+
+.visitReportTranscript .transcriptWindow {
+  width: 380px;
+}
+
+/* TOPICS AND TRIAGE */
+
+.visitSummaryTopicsAndTriage .topicsSubHeader {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Summary Form Error */
+#visitSummaryForm .error {
+  margin: 0px 0px 15px 0px;
+}

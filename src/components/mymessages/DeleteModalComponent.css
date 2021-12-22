@@ -1,0 +1,53 @@
+.deleteModal {
+  text-align: unset;
+}
+
+.deleteModal .modal-content {
+  border: none;
+  border-radius: 0;
+}
+
+.deleteModal .modal-content div {
+  padding: 0 40px;
+}
+
+.deleteModal .deleteModalHeader {
+  height: 90px;
+  width: 100%;
+  background-color: #00bcd4;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Open Sans Extrabold", sans-serif;
+  margin-bottom: 20px;
+}
+
+.deleteModal .deleteModalBody {
+  font-size: 18px;
+  font-weight: bolder;
+  color: #535050;
+}
+
+.deleteModal .deleteModalButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.deleteModal button {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: bolder;
+  width: 133px;
+  height: 50px;
+  background-color: #efa825;
+  border: unset;
+  cursor: pointer;
+  margin: 50px auto;
+}
+
+.deleteModal button:hover {
+  color: #ffffff;
+  background-color: #efa825;
+  opacity: .5;
+}

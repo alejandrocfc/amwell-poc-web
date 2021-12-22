@@ -1,0 +1,50 @@
+.providerNameAndPhotoComponent {
+    display: table-cell;
+    width: 269px;
+    max-width: 269px;
+    height: auto;
+    font-size: 28px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(83, 80, 80);
+}
+
+.providerNameAndPhotoComponent .providerLogo img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    object-position: top;
+    border: 12px solid #ffffff;
+    border-radius: 250px;
+}
+
+.providerNameAndPhotoComponent .providerLogo.offline img {
+    border: 12px solid #d8d8d8;
+    border-radius: 250px;
+}
+
+.providerNameAndPhotoComponent .providerLogo.available img {
+    border: 12px solid #1b8724;
+    border-radius: 250px;
+}
+
+.providerNameAndPhotoComponent .providerLogo.waiting img {
+    border: 12px solid #ef9c23;
+    border-radius: 250px;
+}
+
+.providerNameAndPhotoComponent .providerFullName {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.providerNameAndPhotoComponent .providerRating {
+    color: #f5ba48;
+    line-height: 40px;
+    font-size: 35px;
+}
+
+.providerNameAndPhotoComponent .providerSpecialty {
+    font-size: 20px;
+}

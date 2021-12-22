@@ -1,0 +1,56 @@
+.landingHeader {
+    background: url('../images/banners/hospital-exterior.png') no-repeat;
+    background-size: cover;
+    height: 327px;
+}
+
+.landingBody {
+    padding: 15px;
+}
+
+.landingServices {
+    background-color: rgb(255,255,255);
+    padding: 40px;
+    width: 965px;
+    margin: 0 auto;
+}
+
+.serviceImage {
+    width: 429px;
+    height: 170px;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.serviceImage img {
+    height: 40px;
+    width: 40px;
+}
+
+.servicePhysicians {
+    background: url('./images/imgGeneralHospitalPhysicians.png') no-repeat center;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.servicePharmacy {
+    background: url('./images/imgGeneralHospitalPharmacy.png') no-repeat center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.serviceTelehealth {
+    background: url('./images/imgGeneralHospitalTelehealth.png') no-repeat center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.serviceMyLife {
+    background: url('./images/imgGeneralHospitalMyLife.png') no-repeat center;
+    margin-top: 10px;
+    margin-left: 10px;
+}

@@ -1,0 +1,27 @@
+.detailedMessageComponent {
+    padding: 40px;
+}
+
+.detailedMessageTitle {
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+
+.detailedMessageFullName {
+    font-weight: bold;
+}
+
+.detailedMessageComponent .metaBodyDivider {
+    margin: 36px 0;
+}
+
+.detailedMessageComponent::-webkit-scrollbar {
+    width: 15px;
+}
+
+.detailedMessageComponent::-webkit-scrollbar-thumb {
+    background: #d9d9d9;
+    background-clip: padding-box;
+    border: 3px solid transparent;
+    border-radius: 10px;
+}

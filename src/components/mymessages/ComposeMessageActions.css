@@ -1,0 +1,7 @@
+.composeMessageActions input {
+  display: none;
+}
+
+.composeMessageActions label {
+  width: max-content;
+}
