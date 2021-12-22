@@ -9,7 +9,7 @@
  * prior written authorization from American Well.
  */
 
-export default {
+const ZH = {
   /**
    * Language Strings:
    * Keep these string at the top
@@ -1128,3 +1128,5 @@ export default {
   amwell_tyto_device_trouble_connecting:"我们仍然无法连接TytoCare。 请跳过设置以继续使用Tyto设备。"
 
 };
+
+export default ZH;

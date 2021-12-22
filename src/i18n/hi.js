@@ -9,7 +9,7 @@
  * prior written authorization from American Well.
  */
 
-export default {
+const HI = {
   /**
    * Language Strings:
    * Keep these string at the top
@@ -1127,4 +1127,6 @@ export default {
   visit_intake_invite_integration_useTytoInVisitQuestion: "क्या आप अपनी यात्रा के दौरान Tyto डिवाइस का उपयोग करेंगे?",
   amwell_tyto_device_trouble_connecting: 'हमें अभी भी TytoCare से कनेक्ट करने में समस्या हो रही है कृपया अपने Tyto डिवाइस के बिना जारी रखने के लिए सेटअप को छोड़ दें।',
 
-}
+};
+
+export default HI;

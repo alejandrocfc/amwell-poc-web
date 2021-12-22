@@ -12,7 +12,7 @@
 import React from 'react';
 import Loadable from 'react-loading-overlay';
 
-export function SpinnerWrapper(WrappedComponent) {
+const SpinnerWrapper = (WrappedComponent) => {
   return class Spinner extends React.Component {
     constructor(props) {
       super(props);
@@ -52,4 +52,5 @@ export function SpinnerWrapper(WrappedComponent) {
     }
   };
 }
-export default {};
+
+export default SpinnerWrapper;

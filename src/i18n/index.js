@@ -9,7 +9,8 @@ import iw from './iw';
 import zh from './zh';
 import pt from './pt';
 
-
-export default {
+const translations = {
   en, hi, iw, zh, pt,
 };
+
+export default translations;

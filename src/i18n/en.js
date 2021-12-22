@@ -8,8 +8,7 @@
  * any part of this Intellectual Property without
  * prior written authorization from American Well.
  */
-
-export default {
+const EN = {
   /**
    * Language Strings:
    * Keep these string at the top
@@ -360,7 +359,7 @@ export default {
   my_health_vitals_weight_out_of_range: 'Weight value out of range',
   my_health_vitals_ounce_out_of_range: 'Ounces value out of range',
   my_health_vitals_height_out_of_range: 'Height value out of range',
-  my_health_vitals_inch_out_of_range: 'Inches value out of range', 
+  my_health_vitals_inch_out_of_range: 'Inches value out of range',
   my_profile: 'MY PROFILE',
   my_profile_account_description: 'Your account contains information collected when you signed up. You can edit this information below',
   my_profile_appointment_reminders: 'APPOINTMENT REMINDERS',
@@ -1004,10 +1003,10 @@ export default {
   vitals_diastolic: 'Diastolic',
   weight: 'Weight',
   weight_Major_units: 'lbs',
-  weight_Minor_units: 'oz', 
+  weight_Minor_units: 'oz',
   height: 'Height',
   height_Major_units: 'ft',
-  height_Minor_units: 'in',   
+  height_Minor_units: 'in',
   welcome: 'WELCOME',
   year: 'Year',
   yes: 'Yes',
@@ -1129,3 +1128,4 @@ export default {
   amwell_tyto_device_connection_unavailable: "Tyto Connection Unavailable",
   amwell_tyto_device_trouble_connecting: 'We’re still having trouble connecting to TytoCare. Please skip setup to continue without your Tyto Device.',
 };
+export default EN;

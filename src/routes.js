@@ -11,7 +11,7 @@
 
 import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
-import { SpinnerWrapper } from './containers/SpinnerWrapper';
+import SpinnerWrapper  from './containers/SpinnerWrapper';
 
 export const PrivateRoute = SpinnerWrapper(({ component: Component, ...rest }) => (
   <Route {...rest} render={(props) => {

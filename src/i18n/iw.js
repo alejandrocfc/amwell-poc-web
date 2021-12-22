@@ -9,7 +9,7 @@
  * prior written authorization from American Well.
  */
 
-export default {
+const IW = {
   /**
    * Language Strings:
    * Keep these string at the top
@@ -360,7 +360,7 @@ export default {
   my_health_vitals_weight_out_of_range: 'ערך משקל מחוץ לטווח',
   my_health_vitals_ounce_out_of_range: 'ערך אונקיות מחוץ לטווח',
   my_health_vitals_height_out_of_range: 'ערך הגובה מחוץ לטווח',
-  my_health_vitals_inch_out_of_range: "ערך סנטימטרים מחוץ לטווח", 
+  my_health_vitals_inch_out_of_range: "ערך סנטימטרים מחוץ לטווח",
   my_profile: 'הפרופיל שלי',
   my_profile_account_description: 'החשבון שלך מכיל מידע שנאסף בעת ההרשמה. תוכל לערוך מידע זה בהמשך',
   my_profile_appointment_reminders: 'תזכורות מינוי',
@@ -1009,10 +1009,10 @@ export default {
   vitals_diastolic: 'דיאסטולי',
   weight: 'מִשׁקָל',
   weight_Major_units: 'לִירָה',
-  weight_Minor_units: 'אוּנְקִיָה', 
+  weight_Minor_units: 'אוּנְקִיָה',
   height: 'גובה',
   height_Major_units: 'כַּף הָרֶגֶל',
-  height_Minor_units: 'אִינְטשׁ',   
+  height_Minor_units: 'אִינְטשׁ',
   welcome: 'ברוך הבא',
   year: 'שנה',
   yes: 'כן',
@@ -1137,3 +1137,5 @@ export default {
   amwell_tyto_device_trouble_connecting: 'אנחנו עדיין מתקשים להתחבר ל- TytoCare. אנא דלג על ההתקנה כדי להמשיך ללא מכשיר ה- Tyto שלך',
 
 };
+
+export default IW;
