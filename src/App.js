@@ -515,7 +515,6 @@ class App extends React.Component {
           <BrowserRouter>
             <RouteInterceptor {...properties}>
               <div className={this.state.direction} dir={this.state.direction} lang={getLanguage(this.state.locale)}>
-                <PublicRoute component={Header} {...properties} cssClass="awsdk-header"/>
                 <InformationModal
                     className="errorModal"
                     isOpen={this.state.error}
